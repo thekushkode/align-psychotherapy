@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBCollapse, MDBContainer, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBIcon } from 'mdbreact';
+import logo from '../assets/alignlogo.png';
 
 class Nav extends Component {
     state = {
@@ -25,16 +26,16 @@ class Nav extends Component {
         const overlay = (
             <div
                 id='sidenav-overlay'
-                style={{ backgroundColor: 'transparent' }}
+                style={{ backgroundColor: 'white' }}
                 onClick={this.toggleCollapse('navbarCollapse')}
             />
         );
         return (
             <div>
-                <MDBNavbar style={{ backgroundColor: "#cea58a" }} dark scrolling expand='md' fixed='top'>
+                <MDBNavbar style={{ backgroundColor: "#f1f5e4" }} dark  expand='md' fixed='top'>
                     <MDBContainer>
                         <MDBNavbarBrand>
-                            <span className='white-text'>MDBNavbar</span>
+                        <span><a href='/' style={{ color: "white" }}><img src={logo} alt='Align logo' style={{ width: '100px', padding: '0px' }}></img></a></span>
                         </MDBNavbarBrand>
                         <MDBNavbarToggler
                             onClick={this.toggleCollapse('navbarCollapse')}
@@ -42,52 +43,44 @@ class Nav extends Component {
                         <MDBCollapse id='navbarCollapse' isOpen={collapseID} navbar>
                             <MDBNavbarNav left>
                                 <MDBNavItem>
-                                    <MDBNavLink to='#!'>Home</MDBNavLink>
-                                </MDBNavItem>
-                                <MDBNavItem>
-                                    <MDBNavLink link to='#!'>
+                                    <MDBNavLink className='black-text' link to='#!'>
                                         About
-                                            </MDBNavLink>
+                                    </MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>
-                                    <MDBNavLink link to='#!'>
-                                        Features
-                                            </MDBNavLink>
-                                </MDBNavItem>
-                                <MDBNavItem>
-                                    <MDBNavLink link to='#!'>
+                                    <MDBNavLink className='black-text' link to='/services'>
                                         Services
-                                            </MDBNavLink>
+                                    </MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>
-                                    <MDBNavLink link to='#!'>
-                                        Opinions
-                                            </MDBNavLink>
+                                    <MDBNavLink className='black-text' link to='#!'>
+                                        FAQ
+                                    </MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>
-                                    <MDBNavLink link to='#!'>
-                                        Team
-                                            </MDBNavLink>
-                                </MDBNavItem>
-                                <MDBNavItem>
-                                    <MDBNavLink link to='#!'>
+                                    <MDBNavLink className='black-text' link to='/contact'>
                                         Contact
-                                            </MDBNavLink>
+                                    </MDBNavLink>
                                 </MDBNavItem>
                             </MDBNavbarNav>
                             <MDBNavbarNav right>
                                 <MDBNavItem>
-                                    <MDBNavLink link to='!#'>
+                                    <MDBNavLink className='black-text' link to='!#'>
+                                        <MDBIcon fas icon='envelope' />
+                                    </MDBNavLink>
+                                </MDBNavItem>
+                                <MDBNavItem>
+                                    <MDBNavLink className='black-text' link to='!#'>
                                         <MDBIcon fab icon='facebook' />
                                     </MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>
-                                    <MDBNavLink link to='!#'>
+                                    <MDBNavLink className='black-text' link to='!#'>
                                         <MDBIcon fab icon='twitter' />
                                     </MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>
-                                    <MDBNavLink link to='!#'>
+                                    <MDBNavLink className='black-text' link to='!#'>
                                         <MDBIcon fab icon='instagram' />
                                     </MDBNavLink>
                                 </MDBNavItem>

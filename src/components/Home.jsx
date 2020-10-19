@@ -10,12 +10,17 @@ import {
 } from 'mdbreact';
 import './Home.css';
 import Nav from './Nav';
+import Footer from './Footer';
 import videoMp4 from '../assets/backgroundvids/alignsamplevid.mp4';
 import videoOgg from '../assets/backgroundvids/alignsamplevid.ogg';
 import videoWebm from '../assets/backgroundvids/alignsamplevid.webm';
 import poster from '../assets/backgroundvids/alignposter.png';
 
 class Home extends React.Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
 
     render() {
 
@@ -48,7 +53,7 @@ class Home extends React.Component {
                                         deleniti consequuntur nihil.
                                     </h4>
                                     <MDBBtn outline rounded color='white'>
-                                        <MDBIcon icon='home' /> Visit us
+                                        <MDBIcon fas icon='calendar' size='lg' className='mr-1' /> Make Appointment
                                 </MDBBtn>
                                 </MDBCol>
                             </MDBRow>
@@ -71,6 +76,9 @@ class Home extends React.Component {
                         </MDBRow>
                     </MDBContainer>
                 </div>
+                <footer>
+                    <Footer />
+                </footer>
             </div>
         );
     }

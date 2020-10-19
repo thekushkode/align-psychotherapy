@@ -2,6 +2,8 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import Home from './components/Home';
+import Services from './components/Services';
+import ContactPage from './components/Contact';
 
 
 // ReactGA.initialize('UA-178438543-1');
@@ -12,6 +14,8 @@ function App() {
   return (
     <Switch>
       <Route exact path='/' component={Home} />
+      <Route exact path='/services' component={Services} />
+      <Route exact path='/contact' component={ContactPage} />
     </Switch>
   );
 }

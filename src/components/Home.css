@@ -1,7 +1,7 @@
 #videobackground .gradient {
-    background: -moz-linear-gradient(45deg, rgba(206, 165, 138, 0.3), rgba(206, 165, 138, 0.3) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(206, 165, 138, 0.3), rgba(206, 165, 138, 0.3) 100%);
-    background: linear-gradient(45deg, rgba(206, 165, 138, 0.3), rgba(206, 165, 138, 0.3) 100%);
+    background: -moz-linear-gradient(45deg, rgba(206, 165, 138, 0.5), rgba(206, 165, 138, 0.5) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(206, 165, 138, 0.5), rgba(206, 165, 138, 0.5) 100%);
+    background: linear-gradient(45deg, rgba(206, 165, 138, 0.5), rgba(206, 165, 138, 0.5) 100%);
 }
 
 #videobackground .view video {

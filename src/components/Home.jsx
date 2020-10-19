@@ -45,12 +45,11 @@ class Home extends React.Component {
                             <MDBRow>
                                 <MDBCol md='12' className='mb-4 white-text text-center'>
                                     <h3 className='display-3 font-weight-bold mb-0 pt-md-5'>
-                                        Creative Agency{' '}
+                                        Align Psychotherapy
                                     </h3>
                                     <hr className='hr-light my-4 w-75' />
                                     <h4 className='subtext-header mt-2 mb-4'>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                                        deleniti consequuntur nihil.
+                                        Happiness Begins Here.
                                     </h4>
                                     <MDBBtn outline rounded color='white'>
                                         <MDBIcon fas icon='calendar' size='lg' className='mr-1' /> Make Appointment

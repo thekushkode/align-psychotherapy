@@ -8,29 +8,37 @@ const Footer = () => {
             <MDBContainer fluid className="text-center black-text text-md-left">
                 <MDBRow>
                     <MDBCol md="4">
-                        <h5 className="title">Footer Content</h5>
+                        <h4 className="title">Align Psychotherapy</h4>
                         <p>
-                            Here you can use rows and columns here to organize your footer
-                            content.
+                            Brittany Ellison, LPC
                         </p>
+                        <p className='p-0 m-0'>25 Whitlock Place SE, St-101</p>
+                        <p className='p-0 m-0'>Marietta, Ga 30064</p>
+                        <p className='p-0 m-0'><a style={{ color: 'black' }} href='tel:4705173251'>470.517.3251</a></p>
+                        <p className='mb-4'><a style={{ color: 'black' }} href='mailto:brittellison1@gmail.com'>brittellison1@gmail.com</a></p>
+                        <MDBRow>
+                            <MDBCol>
+                                <p>Georgia License #: <b>011125</b></p>
+                            </MDBCol>
+                        </MDBRow>
                     </MDBCol>
                     <MDBCol md='4'>
                         <img src={logo} alt='Align Psychotherapy Logo' className='img-fluid'/>
                     </MDBCol>
                     <MDBCol md="4">
-                        <h5 className="title black-text">Links</h5>
+                        <h5 className="title black-text text-right">Helpful Links</h5>
                         <ul>
-                            <li className="black-text list-unstyled">
-                                Option1
+                            <li className="black-text mb-1 text-right list-unstyled">
+                                Schedule Appointment
                             </li>
-                            <li className="black-text list-unstyled">
-                                Option2
+                            <li className="black-text mb-1 text-right list-unstyled">
+                                Services
                             </li>
-                            <li className="black-text list-unstyled">
-                                Option3
+                            <li className="black-text mb-1 text-right list-unstyled">
+                                Contact
                             </li>
-                            <li className="black-text list-unstyled">
-                                Option4
+                            <li className="black-text text-right list-unstyled">
+                                FAQ
                             </li>
                         </ul>
                     </MDBCol>

@@ -53,7 +53,7 @@ class Nav extends Component {
                                     </MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>
-                                    <MDBNavLink className='black-text' link to='#!'>
+                                    <MDBNavLink className='black-text' link to='/faq'>
                                         FAQ
                                     </MDBNavLink>
                                 </MDBNavItem>

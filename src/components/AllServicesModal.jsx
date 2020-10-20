@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter } from 'mdbreact';
+import { MDBBtn, MDBModal, MDBModalBody, MDBModalHeader, MDBModalFooter, MDBRow, MDBCol } from 'mdbreact';
 import './AlignColors.css';
 
 class AllServicesModal extends Component {
@@ -17,13 +17,48 @@ class AllServicesModal extends Component {
         return (
             <div>
                 <MDBBtn className='btn-rounded black-text aligncream' onClick={this.toggle}>See All Services</MDBBtn>
-                <MDBModal isOpen={this.state.modal} toggle={this.toggle}>
-                    <MDBModalHeader toggle={this.toggle}>All Services</MDBModalHeader>
+                <MDBModal isOpen={this.state.modal} toggle={this.toggle} size='lg'>
+                    <MDBModalHeader className='aligncream' toggle={this.toggle}>All Services</MDBModalHeader>
                     <MDBModalBody>
-                        (...)
+                        <div>
+                            <MDBRow>
+                                <MDBCol md='6'>
+                                    <ul>
+                                        <li>Life Transitions</li>
+                                        <li>Self Esteem</li>
+                                        <li>Relationship Issues</li>
+                                        <li>Addiction</li>
+                                        <li>Adoption</li>
+                                        <li>Anger Management</li>
+                                        <li>Anxiety</li>
+                                        <li>Bipolar Disorder</li>
+                                        <li>Borderline Personality</li>
+                                        <li>Codependency</li>
+                                        <li>Depression</li>
+                                        <li>Dual Diagnosis</li>
+                                    </ul>
+                                </MDBCol>
+                                <MDBCol md='6'>
+                                    <ul>
+                                        <li>Eating Disorders</li>
+                                        <li>Grief</li>
+                                        <li>Infertility</li>
+                                        <li>Obsessive-Compulsive (OCD)</li>
+                                        <li>Pregnancy, Prenatal, Postpartum</li>
+                                        <li>Sexual Abuse</li>
+                                        <li>Sleep or Isomnia</li>
+                                        <li>Stress</li>
+                                        <li>Substance Abuse</li>
+                                        <li>Trauma & PTSD</li>
+                                        <li>Traumatic Brain Injury</li>
+                                        <li>Women's Issues</li>
+                                    </ul>
+                                </MDBCol>
+                            </MDBRow>
+                        </div>
                     </MDBModalBody>
                     <MDBModalFooter>
-                        <MDBBtn className='btn-rounded deep-blue-gradient' onClick={this.toggle}>Close</MDBBtn>
+                        <MDBBtn className='btn-rounded black-text aligncream' onClick={this.toggle}>Close</MDBBtn>
                     </MDBModalFooter>
                 </MDBModal>
             </div>

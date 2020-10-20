@@ -33,7 +33,7 @@ const Services = () => {
                             <MDBRow className="mb-3">
                                 <MDBCol size="2">
                                     <MDBIcon
-                                        icon="flag-checkered"
+                                        icon="exchange-alt"
                                         size="2x"
                                         className="alignbrowntext"
                                     />
@@ -49,7 +49,7 @@ const Services = () => {
                             </MDBRow>
                             <MDBRow className="mb-3">
                                 <MDBCol size="2">
-                                    <MDBIcon icon="flask" size="2x" className="alignbrowntext" />
+                                    <MDBIcon icon="child" size="2x" className="alignbrowntext" />
                                 </MDBCol>
                                 <MDBCol size="10">
                                     <h5 className="font-weight-bold mb-3">Self Esteem</h5>
@@ -62,7 +62,7 @@ const Services = () => {
                             </MDBRow>
                             <MDBRow className="mb-3">
                                 <MDBCol size="2">
-                                    <MDBIcon icon="glass-martini" size="2x" className="alignbrowntext" />
+                                    <MDBIcon icon="people-arrows" size="2x" className="alignbrowntext" />
                                 </MDBCol>
                                 <MDBCol size="10">
                                     <h5 className="font-weight-bold mb-3">Relationship Issues</h5>
@@ -84,7 +84,7 @@ const Services = () => {
                         <MDBCol md="4">
                             <MDBRow className="mb-3">
                                 <MDBCol size="2">
-                                    <MDBIcon icon="heart" size="2x" className="alignbrowntext" />
+                                    <MDBIcon icon="cloud-showers-heavy" size="2x" className="alignbrowntext" />
                                 </MDBCol>
                                 <MDBCol size="10">
                                     <h5 className="font-weight-bold mb-3">Depression</h5>
@@ -97,7 +97,7 @@ const Services = () => {
                             </MDBRow>
                             <MDBRow className="mb-3">
                                 <MDBCol size="2">
-                                    <MDBIcon icon="bolt" size="2x" className="alignbrowntext" />
+                                    <MDBIcon icon="baby" size="2x" className="alignbrowntext" />
                                 </MDBCol>
                                 <MDBCol size="10">
                                     <h5 className="font-weight-bold mb-3">Infertility</h5>
@@ -110,10 +110,10 @@ const Services = () => {
                             </MDBRow>
                             <MDBRow className="mb-3">
                                 <MDBCol size="2">
-                                    <MDBIcon icon="magic" size="2x" className="alignbrowntext" />
+                                    <MDBIcon icon="angry" size="2x" className="alignbrowntext" />
                                 </MDBCol>
                                 <MDBCol size="10">
-                                    <h5 className="font-weight-bold mb-3">Stress & Anxiety</h5>
+                                    <h5 className="font-weight-bold mb-3">Anger Management</h5>
                                     <p className="text-muted">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                         Reprehenderit maiores nam, aperiam minima assumenda deleniti

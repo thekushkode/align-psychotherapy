@@ -14,18 +14,16 @@ const Services = () => {
 
     return (
         <div>
-            <header style={{ marginBottom: '86px' }}>
+            <header style={{ marginBottom: '106px' }}>
                 <Nav />
             </header>
             <section className="my-5">
                 <h2 className="h1-responsive font-weight-bold text-center my-5">
-                    Our Services
-        </h2>
+                    Counseling Services
+                </h2>
                 <p className="lead grey-text w-responsive text-center mx-auto mb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                    ad minim veniam.
-            </p>
+                    I have experience in counseling & treating many different issues. I deeply respect my clients and the wisdom they have within. Together, we will tailor a treatment specific to your needs.
+                </p>
                 <MDBContainer>
 
                     <MDBRow>
@@ -44,7 +42,7 @@ const Services = () => {
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                         Reprehenderit maiores nam, aperiam minima assumenda deleniti
                                         hic.
-                            </p>
+                                    </p>
                                 </MDBCol>
                             </MDBRow>
                             <MDBRow className="mb-3">
@@ -57,7 +55,7 @@ const Services = () => {
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                         Reprehenderit maiores nam, aperiam minima assumenda deleniti
                                         hic.
-                            </p>
+                                    </p>
                                 </MDBCol>
                             </MDBRow>
                             <MDBRow className="mb-3">
@@ -70,7 +68,7 @@ const Services = () => {
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                         Reprehenderit maiores nam, aperiam minima assumenda deleniti
                                         hic.
-                            </p>
+                                    </p>
                                 </MDBCol>
                             </MDBRow>
                         </MDBCol>
@@ -92,7 +90,7 @@ const Services = () => {
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                         Reprehenderit maiores nam, aperiam minima assumenda deleniti
                                         hic.
-                            </p>
+                                    </p>
                                 </MDBCol>
                             </MDBRow>
                             <MDBRow className="mb-3">
@@ -105,7 +103,7 @@ const Services = () => {
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                         Reprehenderit maiores nam, aperiam minima assumenda deleniti
                                         hic.
-                            </p>
+                                    </p>
                                 </MDBCol>
                             </MDBRow>
                             <MDBRow className="mb-3">
@@ -118,7 +116,7 @@ const Services = () => {
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                         Reprehenderit maiores nam, aperiam minima assumenda deleniti
                                         hic.
-                            </p>
+                                    </p>
                                 </MDBCol>
                             </MDBRow>
                         </MDBCol>

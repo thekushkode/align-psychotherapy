@@ -1,6 +1,7 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import logo from '../assets/alignlogo.png';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -32,13 +33,13 @@ const Footer = () => {
                                 Schedule Appointment
                             </li>
                             <li className="black-text mb-1 text-right list-unstyled">
-                                Services
+                                <Link style={{ color: 'black' }} to='/services'>Services</Link>
                             </li>
                             <li className="black-text mb-1 text-right list-unstyled">
-                                Contact
+                                <Link style={{ color: 'black' }} to='/contact'>Contact</Link>
                             </li>
                             <li className="black-text text-right list-unstyled">
-                                FAQ
+                                <Link style={{ color: 'black' }} to='/faq'>FAQ</Link>
                             </li>
                         </ul>
                     </MDBCol>

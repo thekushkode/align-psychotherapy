@@ -43,7 +43,7 @@ class Nav extends Component {
                         <MDBCollapse id='navbarCollapse' isOpen={collapseID} navbar>
                             <MDBNavbarNav left>
                                 <MDBNavItem>
-                                    <MDBNavLink className='black-text' link to='#!'>
+                                    <MDBNavLink className='black-text' link to='/about'>
                                         About
                                     </MDBNavLink>
                                 </MDBNavItem>

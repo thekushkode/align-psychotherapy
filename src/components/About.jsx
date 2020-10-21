@@ -40,7 +40,7 @@ const About = () => {
                             <MDBCol lg="8">
 
                                 <p>
-                                    I have worked with insectioniduals and couples in various settings with a wide range of behavioral and emotional concerns including anxiety, depression, trauma, relationship & family issues, grief & loss, life transitions and identity development. I believe that our well-being is greatly impacted by early childhood experiences, our culture and our relationships with ourselves and others.<br /><br />
+                                    I have worked with individuals and couples in various settings with a wide range of behavioral and emotional concerns including anxiety, depression, trauma, relationship & family issues, grief & loss, life transitions and identity development. I believe that our well-being is greatly impacted by early childhood experiences, our culture and our relationships with ourselves and others.<br /><br />
 
                                         With a warm and collaborative therapeutic style, my goal is to create a safe and welcoming space where clients can feel seen and not judged, allowing for vulnerability and authentic sharing. I have an integrative approach, incorporating theoretical orientations including humanistic, psychodynamic and cognitive-behavioral modalities.<br /><br />
 

@@ -17,7 +17,6 @@ import videoMp4 from '../assets/backgroundvids/alignsamplevid.mp4';
 import videoOgg from '../assets/backgroundvids/alignsamplevid.ogg';
 import videoWebm from '../assets/backgroundvids/alignsamplevid.webm';
 import poster from '../assets/backgroundvids/alignposter.png';
-import Britt from '../assets/be.jpg';
 import Britt2 from '../assets/brittelli.jpg';
 
 class Home extends React.Component {

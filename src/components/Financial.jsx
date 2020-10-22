@@ -1,6 +1,7 @@
 import React from "react";
 import { MDBRow, MDBCol, MDBIcon, MDBBtn } from "mdbreact";
 import InsuranceModal from "./InsuranceModal";
+import { Link } from 'react-router-dom';
 
 const Financial = () => {
     return (
@@ -21,7 +22,7 @@ const Financial = () => {
                     <p className="grey-text mb-md-0 mb-5">
                         Session costs start at $130. Rates can fluctuate based on the treatment involved. Please get in touch to discuss costs in greater detail or to schedule an appointment.
                     </p>
-                    <MDBBtn className='aligncream btn-rounded black-text mt-4'>Get In Touch</MDBBtn>
+                    <Link to='/contact'><MDBBtn className='aligncream btn-rounded black-text mt-4'>Get In Touch</MDBBtn></Link>
                 </MDBCol>
                 <MDBCol md="6">
                     <div className="d-flex justify-content-center">

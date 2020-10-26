@@ -32,14 +32,20 @@ class Nav extends Component {
         );
         return (
             <div>
-                <MDBNavbar style={{ backgroundColor: "#f1f5e4" }} dark  expand='md' fixed='top'>
+                <MDBNavbar style={{ backgroundColor: "#ffffff" }}  expand='md' fixed='top'>
                     <MDBContainer>
                         <MDBNavbarBrand>
-                        <span><a href='/' style={{ color: "white" }}><img src={logo} alt='Align logo' style={{ width: '100px', padding: '0px' }}></img></a></span>
+                            <span><a href='/' style={{ color: "white" }}><img src={logo} alt='Align logo' style={{ width: '100px', padding: '0px', marginTop: '-5px' }}></img></a></span>
                         </MDBNavbarBrand>
                         <MDBNavbarToggler
                             onClick={this.toggleCollapse('navbarCollapse')}
-                        />
+                            tag='button'
+                            className='mb-4'
+                        >
+                            <span className="black-text">
+                                <MDBIcon icon="bars" />
+                            </span>
+                        </MDBNavbarToggler>
                         <MDBCollapse id='navbarCollapse' isOpen={collapseID} navbar>
                             <MDBNavbarNav left>
                                 <MDBNavItem>

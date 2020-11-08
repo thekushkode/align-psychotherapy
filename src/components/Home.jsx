@@ -28,9 +28,10 @@ class Home extends React.Component {
 
         return (
             <div>
-                <header style={{ marginBottom: '56px' }}>
+                {/* <header style={{ marginBottom: '56px' }}>
                     <Nav />
-                </header>
+                </header> */}
+                <Nav />
                 <div id='videobackground'>
                     <MDBView>
                         <MDBMask className='gradient'>

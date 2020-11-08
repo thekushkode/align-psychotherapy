@@ -66,7 +66,7 @@ class ContactPage extends Component {
                                         <div className="md-form">
                                             <MDBInput
                                                 icon="pencil-alt"
-                                                label="Icon Prefix"
+                                                label="Message"
                                                 iconClass="grey-text"
                                                 type="textarea"
                                                 id="form-text"

@@ -32,7 +32,7 @@ class Nav extends Component {
         );
         return (
             <div>
-                <MDBNavbar style={{ backgroundColor: "#ffffff" }}  expand='md' fixed='top'>
+                <MDBNavbar style={{ backgroundColor: "#F1F6F7" }} expand='md' fixed='top'>
                     <MDBContainer>
                         <MDBNavbarBrand>
                             <span><a href='/' style={{ color: "white" }}><img src={logo} alt='Align logo' style={{ width: '100px', padding: '0px', marginTop: '-5px' }}></img></a></span>

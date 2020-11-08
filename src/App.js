@@ -7,6 +7,7 @@ import ContactPage from './components/Contact';
 import FAQ from './components/FAQ';
 import About from './components/About';
 import HomeStill from './components/HomeStill';
+import Home3 from './components/Home3';
 
 
 // ReactGA.initialize('UA-178438543-1');
@@ -16,12 +17,13 @@ import HomeStill from './components/HomeStill';
 function App() {
   return (
     <Switch>
-      <Route exact path='/' component={HomeStill} />
+      <Route exact path='/' component={Home3} />
       <Route exact path='/services' component={Services} />
       <Route exact path='/contact' component={ContactPage} />
       <Route exact path='/faq' component={FAQ} />
       <Route exact path='/about' component={About} />
       <Route exact path='/video' component={Home} />
+      <Route exact path='/third' component={HomeStill} />
     </Switch>
   );
 }

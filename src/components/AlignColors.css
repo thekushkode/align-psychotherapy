@@ -1,7 +1,57 @@
+/* Background Colors */
+
 .aligncream {
-    background: rgb(238, 244, 222) !important;
+    background: rgb(239, 230, 215) !important;
+}
+
+.alignlightblue {
+    background: rgb(241, 246, 247) !important;
+}
+
+.alignlightgrey {
+    background: rgb(228, 229, 231) !important;
+}
+
+.alignlightbrown {
+    background: rgb(208, 198, 190) !important;
+}
+
+.aligndarkcream {
+    background: rgb(200, 181, 149) !important;
+}
+
+.aligndarkgrey {
+    background: rgb(80, 82, 80) !important;
+}
+
+/* Text Colors */
+
+.aligncreamtext {
+    color: rgb(239, 230, 215) !important;
+}
+
+.alignlightbluetext {
+    color: rgb(241, 246, 247) !important;
+}
+
+.alignlightgreytext {
+    color: rgb(228, 229, 231) !important;
+}
+
+.alignlightbrowntext {
+    color: rgb(208, 198, 190) !important;
+}
+
+.aligndarkcreamtext {
+    color: rgb(200, 181, 149) !important;
+}
+
+.aligndarkgreytext {
+    color: rgb(80, 82, 80) !important;
 }
 
 .alignbrowntext {
     color: rgb(212, 167, 138) !important;
 }
+
+

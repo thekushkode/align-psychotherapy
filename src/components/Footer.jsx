@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <MDBFooter style={{ backgroundColor: "#ffffff" }} className="font-small pt-4 mt-4">
+        <MDBFooter style={{ backgroundColor: "#f1f6f7" }} className="font-small pt-4 mt-4">
             <MDBContainer fluid className="text-center black-text text-md-left">
                 <MDBRow>
                     <MDBCol md="4">
@@ -45,7 +45,7 @@ const Footer = () => {
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>
-            <div style={{ backgroundColor: '#fcfcf2'}} className="footer-copyright text-center py-3">
+            <div style={{ backgroundColor: '#e4e5e7'}} className="footer-copyright text-center py-3">
                 <MDBContainer className='d-flex justify-content-between black-text' fluid>
                     <div>
                         &copy; {new Date().getFullYear()} Copyright: Align Psychotherapy

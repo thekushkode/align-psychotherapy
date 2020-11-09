@@ -9,7 +9,7 @@ import {
 import './AlignColors.css';
 import Nav from './Nav';
 import Footer from './Footer';
-import Britt2 from '../assets/brittelli.jpg';
+import align4 from '../assets/photoshoot/align4.jpg';
 import Financial from './Financial';
 
 const About = () => {
@@ -18,20 +18,20 @@ const About = () => {
             <header style={{ marginBottom: '56px' }}>
                 <Nav />
             </header>
-            <section>
-                <MDBCard className="px-5 pb-5">
+            <section className='alignlightblue'>
+                <MDBCard className="px-5 pb-5 alignlightblue">
                     <MDBCardBody>
                         <h2 className="h1-responsive font-weight-bold text-muted text-center mb-5 mt-2">
                             About the Counselor
-                            </h2>
+                        </h2>
                         <p className="text-center text-muted w-responsive mx-auto mb-5">
                             Brittany Ellison is a Licensed Professional Counselor (LPC) in the State of Georgia with over 5 years of clinical experience. Brittany is a graduate of the University of San Francisco and received her masters in Counseling Psychology.
-                            </p>
+                        </p>
                         <MDBRow>
                             <MDBCol lg="4">
                                 <img
                                     className="img-fluid"
-                                    src={Britt2}
+                                    src={align4}
                                     alt="Brittany Ellison head shot"
                                 />
                                 {/* <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>

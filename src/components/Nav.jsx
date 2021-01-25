@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBCollapse, MDBContainer, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBIcon } from 'mdbreact';
-import logo from '../assets/alignlogo.png';
+import logo from '../assets/logo-blk.png';
+import './AlignColors.css';
 
 class Nav extends Component {
     state = {
@@ -32,6 +33,9 @@ class Nav extends Component {
         );
         return (
             <div>
+                {/* <div className="navDiv d-flex justify-content-center">
+                <img src={logo} alt='Align logo' className='img-fluid w-25' />
+                </div> */}
                 <MDBNavbar style={{ backgroundColor: "#F1F6F7" }} expand='md' fixed='top'>
                     <MDBContainer>
                         <MDBNavbarBrand>

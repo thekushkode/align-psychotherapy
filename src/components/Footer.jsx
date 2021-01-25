@@ -1,6 +1,6 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-import logo from '../assets/alignlogo.png';
+import logo from '../assets/logo-blk.png';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {

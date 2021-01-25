@@ -50,11 +50,11 @@ const Home3 = () => {
                                 delay='.3s'
                                 className='white-text text-center text-md-left col-md-6 mt-xl-5 mb-5'
                             >
-                                <h1 className='h1-responsive font-weight-bold black-text'>
+                                <h1 className='h1-responsive font-weight-bold black-text trirong-med'>
                                     Align Collective Therapy
                                 </h1>
                                 <hr className='hr-light' />
-                                <h6 className='mb-4 black-text'>
+                                <h6 className='mb-4 black-text trirong-thin'>
                                     Psychotherapy for the mind, body, & soul. Use our form to book your FREE 30-minute consultation today.
                                 </h6>
                                 <MDBBtn outline color='black'>

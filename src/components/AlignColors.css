@@ -32,29 +32,31 @@
 
 /* Background Colors */
 
-.aligncream {
-    background: rgb(239, 230, 215) !important;
-}
-
-.alignlightblue {
-    background: rgb(241, 246, 247) !important;
-}
-
 .alignlightgrey {
-    background: rgb(228, 229, 231) !important;
+    background: rgb(235, 231, 225) !important;
+}
+
+.aligncream {
+    background: rgb(235, 228, 212) !important;
+}
+
+.aligncreammed {
+    background: rgb(218, 207, 201) !important;
+}
+
+.aligncreamdark {
+    background: rgb(214, 193, 164) !important;
+}
+
+
+.alignbrown {
+    background: rgb(129, 95, 81) !important;
 }
 
 .alignlightbrown {
-    background: rgb(208, 198, 190) !important;
+    background: rgb(161, 144, 129) !important;
 }
 
-.aligndarkcream {
-    background: rgb(200, 181, 149) !important;
-}
-
-.aligndarkgrey {
-    background: rgb(80, 82, 80) !important;
-}
 
 /* Text Colors */
 

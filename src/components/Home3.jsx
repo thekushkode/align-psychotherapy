@@ -55,7 +55,10 @@ const Home3 = () => {
                                 </h1>
                                 <hr className='hr-light' />
                                 <h6 className='mb-4 black-text trirong-thin'>
-                                    Psychotherapy for the mind, body, & soul. Use our form to book your FREE 30-minute consultation today.
+                                    Do you feel like you have outgrown who you used to be, old ways of thinking, being and living that no longer serve you? Do you feel you are not living a life aligned with your authentic self? Do you feel stuck, hopeless, lonely, or lost? Are you seeking to know yourself better, and can envision the person you want to be but feel like they are just beyond reach?
+                                </h6>
+                                <h6 className='mb-4 black-text trirong-thin'>
+                                    Align Psychotherapy is for the mind, body, & soul. Use our form to book your FREE 30-minute consultation today.
                                 </h6>
                                 <MDBBtn outline color='black'>
                                     <Link to='/contact' style={{ textDecoration: 'none', color: 'black' }}>Contact</Link>
@@ -154,13 +157,7 @@ const Home3 = () => {
                         <MDBCol lg="8" className='align-self-center'>
 
                             <p className='pl-3'>
-                                I have worked with individuals and couples in various settings with a wide range of behavioral and emotional concerns including anxiety, depression, trauma, relationship & family issues, grief & loss, life transitions and identity development. I believe that our well-being is greatly impacted by early childhood experiences, our culture and our relationships with ourselves and others.<br /><br />
-
-                                        With a warm and collaborative therapeutic style, my goal is to create a safe and welcoming space where clients can feel seen and not judged, allowing for vulnerability and authentic sharing. I have an integrative approach, incorporating theoretical orientations including humanistic, psychodynamic and cognitive-behavioral modalities.<br /><br />
-
-                                        Each client is unique, and treatment should reflect their uniqueness. We will work together to tailor treatment to clients specific needs. I deeply respect my clients and the wisdom they already have within and would count it an honor to walk with you through the journey of therapy.<br /><br />
-
-                                        Thank you for reaching out for support!
+                                Therapy is a powerful place to explore new ways of understanding yourself, new ways of showing up in the world and how you relate to others -- it is a space to slow down, tune in and explore your internal landscape. When we allow ourselves the opportunity to process experiences in our life from a place of compassion and curiosity we empower ourselves to make more informed choices. The self-knowledge and growth we invite into our lives creates a life more aligned with our values and goals. The greater understanding we have of our feelings, motivations, thought patterns and behaviors the greater ability for meaningful change in our lives. Sometimes all you need to do is start.
                             </p>
                         </MDBCol>
                     </MDBRow>

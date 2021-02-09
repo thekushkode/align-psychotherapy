@@ -10,7 +10,8 @@ import {
     MDBCard,
     MDBCardBody,
     MDBInput,
-    MDBAnimation
+    MDBAnimation,
+    MDBStreak
 } from 'mdbreact';
 import './Home3.css';
 import './AlignColors.css';
@@ -23,6 +24,8 @@ import align4 from '../assets/photoshoot/align4.jpg';
 import align15 from '../assets/photoshoot/align15.jpg';
 import align9 from '../assets/photoshoot/align9.jpg';
 import align12 from '../assets/photoshoot/align12.jpg';
+import keyboard from '../assets/align-pics/keyboard.jpg';
+import pinkwheat from '../assets/align-pics/pinkwheat.jpg';
 
 const Home3 = () => {
 
@@ -58,7 +61,7 @@ const Home3 = () => {
                                     Do you feel like you have outgrown who you used to be, old ways of thinking, being and living that no longer serve you? Do you feel you are not living a life aligned with your authentic self? Do you feel stuck, hopeless, lonely, or lost? Are you seeking to know yourself better, and can envision the person you want to be but feel like they are just beyond reach?
                                 </h6>
                                 <h6 className='mb-4 black-text trirong-thin'>
-                                    Align Psychotherapy is for the mind, body, & soul. Use our form to book your FREE 30-minute consultation today.
+                                    Align Psychotherapy is for the mind, body, & soul. Use our form to book your FREE 15-minute consultation today.
                                 </h6>
                                 <MDBBtn outline color='black'>
                                     <Link to='/contact' style={{ textDecoration: 'none', color: 'black' }}>Contact</Link>
@@ -69,14 +72,14 @@ const Home3 = () => {
                                 <MDBAnimation type='fadeInRight' delay='.3s'>
                                     <MDBCard id='classic-card'>
                                         {/* <form> */}
-                                        <MDBCardBody className='white-text'>
+                                        <MDBCardBody className='white-text trirong-med'>
                                             <h3 className='text-center'>
                                                 <MDBIcon icon='calendar' /> Book Today!
                                             </h3>
                                             <hr className='hr-light' />
 
                                             <MDBInput
-                                                className='white-text form-control'
+                                                className='white-text form-control trirong-med'
                                                 iconClass='white-text'
                                                 label='Name'
                                                 icon='user'
@@ -87,7 +90,7 @@ const Home3 = () => {
                                             // required
                                             />
                                             <MDBInput
-                                                className='white-text form-control'
+                                                className='white-text form-control trirong-med'
                                                 iconClass='white-text'
                                                 label='Email'
                                                 icon='envelope'
@@ -99,7 +102,7 @@ const Home3 = () => {
                                             />
 
                                             <div className='text-center mt-4 black-text'>
-                                                <MDBBtn outline color='white' className='white-text' >Submit</MDBBtn>
+                                                <MDBBtn outline color='white' className='white-text trirong-med' >Submit</MDBBtn>
                                                 <hr className='hr-light' />
                                                 <div className='text-center d-flex justify-content-center white-label'>
                                                     <a href='!#' className='p-2 m-2'>
@@ -162,7 +165,18 @@ const Home3 = () => {
                         </MDBCol>
                     </MDBRow>
                 </section>
-                <section className='alignlightblue'>
+                <section >
+                    <div>
+                        <div className='streak streak-photo streak-long-1' style={{ backgroundImage: "url(" + keyboard + ")" }}>
+                            <div className='mask flex-center rgba-black-strong'>
+                                <MDBContainer>
+                                    <h2 className='h2-responsive text-center text-sm-center white-text trirong-med'>“Your vision will become clear only when you look into your heart. Who looks outside, dreams; who looks inside awakens.” <br /> -Carl Young</h2>
+                                </MDBContainer>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className='alignlightblue' style={{ height: '300px' }} >
                     <MDBRow>
                         <MDBCol md='3'>
                             <img src={align17} alt='' className='d-block img-fluid ml-3 p-3' />
@@ -177,6 +191,26 @@ const Home3 = () => {
                             <img src={align12} alt='' className='d-block w-75 img-fluid p-3' />
                         </MDBCol>
                     </MDBRow>
+                </section>
+                <section >
+                    <div>
+                        <div className='streak streak-photo streak-long-1' style={{ backgroundImage: "url(" + pinkwheat + ")" }}>
+                            <div className='mask flex-center rgba-black-strong'>
+                                <MDBContainer>
+                                    <h2 className='h2-responsive text-center text-sm-center white-text trirong-med'>“Happiness is when what you think, what you say and what you do are in harmony.” <br /> -Mahatma Gandhi</h2>
+                                </MDBContainer>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section >
+
+                    <MDBContainer>
+                        <MDBStreak by="Mahatma Gandhi" wrapperClass='white'>
+                            Happiness is when what you think, what you say and what you do are in harmony.
+                        </MDBStreak>
+                    </MDBContainer>
+
                 </section>
                 <section className='aligncream'>
                     <MDBRow>

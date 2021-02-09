@@ -17,13 +17,13 @@ import Home3 from './components/Home3';
 function App() {
   return (
     <Switch>
-      <Route exact path='/' component={Home3} />
+      <Route exact path='/' component={HomeStill} />
       <Route exact path='/services' component={Services} />
       <Route exact path='/contact' component={ContactPage} />
       <Route exact path='/faq' component={FAQ} />
       <Route exact path='/about' component={About} />
-      <Route exact path='/video' component={Home} />
-      <Route exact path='/third' component={HomeStill} />
+      <Route exact path='/1' component={Home} />
+      <Route exact path='/2' component={Home3} />
     </Switch>
   );
 }

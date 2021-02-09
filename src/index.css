@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'made-mirage-thin';
+  src: local('made-mirage-thin'), url(./fonts/made-mirage-thin.ttf) format('truetype');
+}

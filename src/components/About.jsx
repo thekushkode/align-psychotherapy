@@ -15,17 +15,17 @@ import Financial from './Financial';
 const About = () => {
     return (
         <div>
-            <header style={{ marginBottom: '56px' }}>
+            <header style={{ marginBottom: '100px' }}>
                 <Nav />
             </header>
             <section className='alignlightblue'>
-                <MDBCard className="px-5 pb-5 alignlightblue">
+                <MDBCard className="px-1 pb-5 alignlightblue">
                     <MDBCardBody>
-                        <h2 className="h1-responsive font-weight-bold text-muted text-center mb-5 mt-2">
+                        <h2 className="h1-responsive font-weight-bold black-text trirong-med text-center mb-5 mt-2">
                             About the Counselor
                         </h2>
-                        <p className="text-center text-muted w-responsive mx-auto mb-5">
-                            Brittany Ellison is a Licensed Professional Counselor (LPC) in the State of Georgia with over 5 years of clinical experience. Brittany is a graduate of the University of San Francisco and received her masters in Counseling Psychology.
+                        <p className="text-center black-text w-responsive mx-auto mb-5">
+                            I am a Licensed Professional Counselor in the state of Georgia. I received my masters in counseling psychology from the University of San Francisco. I offer a warm and collaborative therapeutic style focused on creating a safe and welcoming space where clients can feel seen and not judged, allowing for vulnerability and authentic sharing. I have an integrative approach, incorporating theoretical orientations including humanistic, psychodynamic and cognitive-behavioral modalities.
                         </p>
                         <MDBRow>
                             <MDBCol lg="4">

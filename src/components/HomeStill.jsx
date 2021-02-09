@@ -80,7 +80,7 @@ class HomeStill extends React.Component {
 
                         <MDBRow>
                             <MDBCol md="8" className='align-self-center'>
-                                <h1 className='h1-responsive font-weight-bold black-text trirong-med'>
+                                <h1 className='h1-responsive font-weight-bold black-text mirage'>
                                     Welcome to Align Psychotherapy!
                                 </h1>
                                 <hr className='hr-dark mx-1' />

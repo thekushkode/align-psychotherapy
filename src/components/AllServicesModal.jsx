@@ -16,9 +16,9 @@ class AllServicesModal extends Component {
     render() {
         return (
             <div>
-                <MDBBtn className='btn-rounded black-text aligncream' onClick={this.toggle}>See All Services</MDBBtn>
+                <MDBBtn outline color='black' className='black-text' onClick={this.toggle} size='md'>View Services</MDBBtn>
                 <MDBModal isOpen={this.state.modal} toggle={this.toggle} size='lg'>
-                    <MDBModalHeader className='aligncream' toggle={this.toggle}>All Services</MDBModalHeader>
+                    <MDBModalHeader style={{ backgroundColor: "#F1F6F7" }} toggle={this.toggle}>All Services</MDBModalHeader>
                     <MDBModalBody>
                         <div>
                             <MDBRow>
@@ -58,7 +58,7 @@ class AllServicesModal extends Component {
                         </div>
                     </MDBModalBody>
                     <MDBModalFooter>
-                        <MDBBtn className='btn-rounded black-text aligncream' onClick={this.toggle}>Close</MDBBtn>
+                        <MDBBtn className='btn-rounded black-text navcolor' onClick={this.toggle}>Close</MDBBtn>
                     </MDBModalFooter>
                 </MDBModal>
             </div>

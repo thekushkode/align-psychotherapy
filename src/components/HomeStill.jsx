@@ -41,7 +41,7 @@ class HomeStill extends React.Component {
                         </MDBMask>{' '}
                         <MDBContainer
                             className='d-flex justify-content-center align-items-center px-md-3 px-sm-0'
-                            style={{ height: '100vh', width: '100%', paddingTop: '3rem' }}
+                            style={{ height: '100vh', width: '100%', paddingTop: '2rem' }}
                         >
                             <MDBRow>
                                 <MDBCol md='12' className='mb-4 black-text text-center'>
@@ -55,7 +55,9 @@ class HomeStill extends React.Component {
                                     <MDBBtn outline rounded color='black'>
                                         <MDBIcon fas icon='envelope' size='lg' className='mr-1' /> Contact Us Today
                                     </MDBBtn> */}
-                                    <img src={logo} className='img-fluid' alt='align logo' />
+                                    <div className="d-flex justify-content-center">
+                                        <img src={logo} className='img-fluid' width='70%' alt='align logo' />
+                                    </div>
                                     <MDBBtn outline rounded color='black'>
                                         <MDBIcon fas icon='envelope' size='lg' className='mr-1' />Get In Touch
                                     </MDBBtn>
@@ -98,7 +100,7 @@ class HomeStill extends React.Component {
                             </MDBCol>
                             <MDBCol md="4">
                                 <img
-                                    className="d-block py-2 img-fluid"
+                                    className="d-block py-2 img-fluid rounded-circle"
                                     src={align4}
                                     alt="Brittany Ellison head shot"
                                 />
@@ -127,10 +129,10 @@ class HomeStill extends React.Component {
                     </MDBContainer>
                 </section>
                 <section className='alignlightgrey'>
-                    <h2 className="h1-responsive black-text trirong-med text-center mb-3 pt-5">
-                        Get Care from Anywhere!
+                    <h2 className="h1-responsive black-text mirage font-weight-bold text-center mb-3 pt-5">
+                        Get Care From Anywhere!
                         </h2>
-                        <hr className='hr-dark mb-5' style={{ margin: '0 100px' }} />
+                    <hr className='hr-dark mb-5' style={{ margin: '0 100px' }} />
                     <MDBRow>
                         <MDBCol md='9'>
                             <h4 className="text-center trirong-thin black-text w-responsive mx-auto mb-5">

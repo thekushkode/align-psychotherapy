@@ -15,10 +15,10 @@ class InsuranceModal extends Component {
 
     render() {
         return (
-            <MDBContainer>
-                <MDBBtn className='aligncream black-text btn-rounded mt-4' onClick={this.toggle}>Accepted Providers</MDBBtn>
+            <div>
+                <MDBBtn outline color='black' className='black-text' onClick={this.toggle} size='md'>Accepted Providers</MDBBtn>
                 <MDBModal isOpen={this.state.modal} toggle={this.toggle}>
-                    <MDBModalHeader className='aligncream' toggle={this.toggle}>Accepted Insurance Providers</MDBModalHeader>
+                    <MDBModalHeader style={{ backgroundColor: "#F1F6F7" }} toggle={this.toggle}>Accepted Insurance Providers</MDBModalHeader>
                     <MDBModalBody>
                         <div>
                             <h5 className='mb-5' >Align Psychotherapy Is Pleased To Accept The Following Insurance Plans:</h5>
@@ -46,10 +46,10 @@ class InsuranceModal extends Component {
                         </div>
                     </MDBModalBody>
                     <MDBModalFooter>
-                        <MDBBtn className='aligncream btn-rounded black-text' onClick={this.toggle}>Close</MDBBtn>
+                        <MDBBtn className='btn-rounded black-text navcolor' onClick={this.toggle}>Close</MDBBtn>
                     </MDBModalFooter>
                 </MDBModal>
-            </MDBContainer>
+            </div>
         );
     }
 }

@@ -32,6 +32,10 @@
 
 /* Background Colors */
 
+.navcolor {
+    background: rgb(241, 246, 247) !important;
+}
+
 .alignlightgrey {
     background: rgb(235, 231, 225) !important;
 }
@@ -56,6 +60,8 @@
 .alignlightbrown {
     background: rgb(161, 144, 129) !important;
 }
+
+
 
 
 /* Text Colors */
@@ -92,3 +98,11 @@
     font-family: made-mirage-thin, serif;
 }
 
+.mirage-thick {
+    font-family: made-mirage-thin, serif;
+    font-weight: 500;
+}
+
+.spacing {
+    line-height: 30px;
+}

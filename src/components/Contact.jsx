@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
+import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput, MDBContainer } from "mdbreact";
 import './AlignColors.css';
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -17,7 +17,64 @@ class ContactPage extends Component {
                 <header style={{ marginBottom: '86px' }}>
                     <Nav />
                 </header>
-                <section className="my-5">
+                <MDBContainer>
+                    <h2 className="h1-responsive font-weight-bold text-center my-5">
+                        Contact us
+                    </h2>
+                    <p className="text-center w-responsive mx-auto pb-5">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
+                        error amet numquam iure provident voluptate esse quasi, veritatis
+                        totam voluptas nostrum quisquam eum porro a pariatur veniam.
+                    </p>
+                    <MDBRow>
+                        <MDBCol md="12" className="md-0 mb-5">
+                            <form>
+                                <MDBRow>
+                                    <MDBCol md="6">
+                                        <div className="md-form mb-0">
+                                            <MDBInput type="text" id="contact-name" label="Your name" />
+                                        </div>
+                                    </MDBCol>
+                                    <MDBCol md="6">
+                                        <div className="md-form mb-0">
+                                            <MDBInput
+                                                type="text"
+                                                id="contact-email"
+                                                label="Your email"
+                                            />
+                                        </div>
+                                    </MDBCol>
+                                </MDBRow>
+                                <MDBRow>
+                                    <MDBCol md="12">
+                                        <div className="md-form mb-0">
+                                            <MDBInput type="text" id="contact-subject" label="Subject" />
+                                        </div>
+                                    </MDBCol>
+                                </MDBRow>
+                                <MDBRow>
+                                    <MDBCol md="12">
+                                        <div className="md-form mb-0">
+                                            <MDBInput
+                                                type="textarea"
+                                                id="contact-message"
+                                                label="Your message"
+                                            />
+                                        </div>
+                                    </MDBCol>
+                                </MDBRow>
+                            </form>
+                            <div className="text-center text-md-left">
+                                <MDBBtn color="primary" size="md">
+                                    Send
+                                </MDBBtn>
+                            </div>
+                        </MDBCol>
+                    </MDBRow>
+                </MDBContainer>
+
+
+                {/* <section className="my-5">
                     <h2 className="h1-responsive font-weight-bold text-center my-5">
                         Contact us
                     </h2>
@@ -117,7 +174,7 @@ class ContactPage extends Component {
                             </MDBRow>
                         </MDBCol>
                     </MDBRow>
-                </section>
+                </section> */}
                 <footer>
                     <Footer />
                 </footer>

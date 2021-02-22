@@ -17,10 +17,11 @@
 } */
 
 #apppage .view {
-    background-image: url('../assets/aligncouch.jpg');
+    /* background-image: url('../assets/aligncouch.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center center; */
+    background: rgb(231, 225, 221);
     min-height: 100vh;
 }
 

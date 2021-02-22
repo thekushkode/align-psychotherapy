@@ -5,8 +5,9 @@ import logo from '../assets/alignlogo.jpeg';
 import Footer from "./Footer";
 import Nav from "./Nav";
 import AllServicesModal from './AllServicesModal';
+import sittype from '../assets/align-pics/sittype.jpg';
 
-const Services = () => {
+const Telehealth = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -14,17 +15,17 @@ const Services = () => {
 
     return (
         <div>
-            <header style={{ marginBottom: '106px' }}>
+            <header style={{ marginBottom: '100px' }}>
                 <Nav />
             </header>
-            <section className="my-5">
-                <h2 className="h1-responsive font-weight-bold text-center my-5">
-                    Counseling Services
-                </h2>
-                <p className="lead grey-text w-responsive text-center mx-auto mb-5">
+            <section className="my-5 alignlightgrey">
+                {/* <h2 className="h1-responsive font-weight-bold text-center my-5">
+                    TeleHealth
+                </h2> */}
+                {/* <p className="lead grey-text w-responsive text-center mx-auto mb-5">
                     I have experience in counseling & treating many different issues. I deeply respect my clients and the wisdom they have within. Together, we will tailor a treatment specific to your needs.
-                </p>
-                <MDBContainer>
+                </p> */}
+                {/* <MDBContainer>
 
                     <MDBRow>
                         <MDBCol md="4">
@@ -121,16 +122,32 @@ const Services = () => {
                             </MDBRow>
                         </MDBCol>
                     </MDBRow>
-                </MDBContainer>
-                <div className="d-flex justify-content-center">
+                </MDBContainer> */}
+                    <h2 className="h1-responsive black-text mirage font-weight-bold text-center mb-3 pt-5">
+                        Get Care From Anywhere!
+                        </h2>
+                    <hr className='hr-dark mb-5' style={{ margin: '0 100px' }} />
+                    <MDBRow>
+                        <MDBCol md='9'>
+                            <h4 className="text-center trirong-thin black-text w-responsive mx-auto mb-5">
+                                Telehealth has met the need for mental health support no matter what circumstances or challenges present to access care. Virtual therapy is a huge step forward in wellness technology and I am extremely excited to provide teletherapy to clients near and far in the states I hold a license. There are endless benefits to teletherapy--convenience being among the top.
+                                </h4>
+                            <a href='https://mytherapynyc.com/benefits-of-virtual-therapy/' target='_blank' rel="noopener noreferrer" ><p className="trirong-thin text-center w-responsive mx-auto mb-5">See Benefits of Virtual Therapy</p></a>
+                        </MDBCol>
+                        <MDBCol md='3'>
+                            <img src={sittype} alt='girl sitting and typing on laptop' className='img-fluid pb-3' width='90%' />
+                        </MDBCol>
+                    </MDBRow>
+
+                {/* <div className="d-flex justify-content-center">
                     <AllServicesModal />
-                </div>
+                </div> */}
             </section>
-            <footer>
+            <footer style={{ marginTop: '-50px' }}>
                 <Footer />
             </footer>
         </div>
     );
 }
 
-export default Services;
+export default Telehealth;

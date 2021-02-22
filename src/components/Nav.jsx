@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBCollapse, MDBContainer, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBIcon } from 'mdbreact';
-import logo from '../assets/logo-blk.png';
+import logo from '../assets/alignvert.png';
 import './AlignColors.css';
 
 class Nav extends Component {
@@ -39,7 +39,7 @@ class Nav extends Component {
                 <MDBNavbar style={{ backgroundColor: "#F1F6F7" }} expand='md' fixed='top'>
                     <MDBContainer>
                         <MDBNavbarBrand>
-                            <span><a href='/' style={{ color: "white" }}><img src={logo} alt='Align logo' style={{ width: '100px', padding: '0px', marginTop: '-5px' }}></img></a></span>
+                            <span><a href='/' style={{ color: "white" }}><img src={logo} alt='Align logo' style={{ width: '50px', padding: '0px', marginTop: '-5px' }}></img></a></span>
                         </MDBNavbarBrand>
                         <MDBNavbarToggler
                             onClick={this.toggleCollapse('navbarCollapse')}
@@ -59,12 +59,7 @@ class Nav extends Component {
                                 </MDBNavItem>
                                 <MDBNavItem>
                                     <MDBNavLink className='black-text' link to='/services'>
-                                        Services
-                                    </MDBNavLink>
-                                </MDBNavItem>
-                                <MDBNavItem>
-                                    <MDBNavLink className='black-text' link to='/faq'>
-                                        FAQ
+                                        TeleHealth
                                     </MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>

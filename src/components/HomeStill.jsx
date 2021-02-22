@@ -19,6 +19,7 @@ import couch from '../assets/aligncouch.jpg';
 import logo from '../assets/logo-blk.png';
 import align4 from '../assets/photoshoot/align4.jpg';
 import keyboard from '../assets/align-pics/keyboard.jpg';
+import rocks from '../assets/align-pics/rocks.jpg';
 import sittype from '../assets/align-pics/sittype.jpg';
 
 class HomeStill extends React.Component {
@@ -41,10 +42,10 @@ class HomeStill extends React.Component {
                         </MDBMask>{' '}
                         <MDBContainer
                             className='d-flex justify-content-center align-items-center px-md-3 px-sm-0'
-                            style={{ height: '100vh', width: '100%', paddingTop: '2rem' }}
+                            style={{ height: '100vh', width: '100%', paddingTop: '1rem' }}
                         >
                             <MDBRow>
-                                <MDBCol md='12' className='mb-4 black-text text-center'>
+                                <MDBCol md='8' className='mb-4 black-text text-center align-self-center'>
                                     {/* <h3 className='display-3 font-weight-bold trirong-med mb-0 pt-md-5'>
                                         Align Collective
                                     </h3>
@@ -56,11 +57,16 @@ class HomeStill extends React.Component {
                                         <MDBIcon fas icon='envelope' size='lg' className='mr-1' /> Contact Us Today
                                     </MDBBtn> */}
                                     <div className="d-flex justify-content-center">
-                                        <img src={logo} className='img-fluid' width='70%' alt='align logo' />
+                                        <img src={logo} className='img-fluid' width='80%' alt='align logo' />
                                     </div>
-                                    <MDBBtn outline rounded color='black'>
+                                    {/* <MDBBtn outline rounded color='black'>
                                         <MDBIcon fas icon='envelope' size='lg' className='mr-1' />Get In Touch
-                                    </MDBBtn>
+                                    </MDBBtn> */}
+                                </MDBCol>
+                                <MDBCol md='4'>
+                                    <div className="d-flex justify-content-center">
+                                        <img src={rocks} className='img-fluid' alt='balancing rocks' />
+                                    </div>
                                 </MDBCol>
                             </MDBRow>
                         </MDBContainer>
@@ -128,7 +134,7 @@ class HomeStill extends React.Component {
                         </MDBStreak>
                     </MDBContainer>
                 </section>
-                <section className='alignlightgrey'>
+                {/* <section className='alignlightgrey'>
                     <h2 className="h1-responsive black-text mirage font-weight-bold text-center mb-3 pt-5">
                         Get Care From Anywhere!
                         </h2>
@@ -144,7 +150,7 @@ class HomeStill extends React.Component {
                             <img src={sittype} alt='girl sitting and typing on laptop' className='img-fluid pb-3' width='90%' />
                         </MDBCol>
                     </MDBRow>
-                </section>
+                </section> */}
                 <footer style={{ marginTop: '-25px' }}>
                     <Footer />
                 </footer>

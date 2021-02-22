@@ -1,6 +1,6 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-import logo from '../assets/logo-blk.png';
+import logo from '../assets/alignvert.png';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -23,8 +23,8 @@ const Footer = () => {
                             </MDBCol>
                         </MDBRow>
                     </MDBCol>
-                    <MDBCol md='4'>
-                        <img src={logo} alt='Align Psychotherapy Logo' className='img-fluid'/>
+                    <MDBCol md='4' className='text-center'>
+                        <img src={logo} width='100px' alt='Align Psychotherapy Logo' className='img-fluid'/>
                     </MDBCol>
                     <MDBCol md="4">
                         <h5 className="title black-text text-right">Helpful Links</h5>

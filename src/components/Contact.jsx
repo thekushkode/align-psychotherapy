@@ -3,6 +3,7 @@ import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput, MDBCon
 import './AlignColors.css';
 import Nav from "./Nav";
 import Footer from "./Footer";
+import pic from '../assets/align-pics/contact1.jpg';
 
 class ContactPage extends Component {
 
@@ -25,7 +26,10 @@ class ContactPage extends Component {
                         Thank you for your interest in Align Psychotherapy! Please each out with any questions or to schedule a consultation. I look forward to helping you.
                     </p>
                     <MDBRow>
-                        <MDBCol md="12" className="md-0 mb-5">
+                        <MDBCol md='3' >
+                            <img src={pic} alt='vase on stand' className='img-fluid' />
+                        </MDBCol>
+                        <MDBCol md="9" className="md-0 mb-5">
                             <form>
                                 <MDBRow>
                                     <MDBCol md="6">
@@ -63,7 +67,7 @@ class ContactPage extends Component {
                                 </MDBRow>
                             </form>
                             <div className="text-center text-md-left">
-                                <MDBBtn outline rounded color='black' size="lg">
+                                <MDBBtn outline rounded color='grey lighten-5' className='' size="lg">
                                     Send
                                 </MDBBtn>
                             </div>

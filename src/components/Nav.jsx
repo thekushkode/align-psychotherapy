@@ -69,25 +69,15 @@ class Nav extends Component {
                                 </MDBNavItem>
                             </MDBNavbarNav>
                             <MDBNavbarNav right>
-                                <MDBNavItem>
-                                    <MDBNavLink className='black-text' link to='!#'>
+                                <MDBNavItem className='align-self-center'>
+                                    <a className='black-text' href='mailto:brittany@alignpsychotherapy.co'>
                                         <MDBIcon fas icon='envelope' />
-                                    </MDBNavLink>
+                                    </a>
                                 </MDBNavItem>
-                                <MDBNavItem>
-                                    <MDBNavLink className='black-text' link to='!#'>
-                                        <MDBIcon fab icon='facebook' />
-                                    </MDBNavLink>
-                                </MDBNavItem>
-                                <MDBNavItem>
-                                    <MDBNavLink className='black-text' link to='!#'>
-                                        <MDBIcon fab icon='twitter' />
-                                    </MDBNavLink>
-                                </MDBNavItem>
-                                <MDBNavItem>
-                                    <MDBNavLink className='black-text' link to='!#'>
+                                <MDBNavItem className='align-self-center ml-2'>
+                                    <a className='black-text' href='https://www.instagram.com/alignpsychotherapy/'>
                                         <MDBIcon fab icon='instagram' />
-                                    </MDBNavLink>
+                                    </a>
                                 </MDBNavItem>
                             </MDBNavbarNav>
                         </MDBCollapse>

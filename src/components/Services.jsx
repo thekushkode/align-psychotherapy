@@ -22,10 +22,10 @@ const Telehealth = () => {
             </header>
             <section>
                 <MDBRow>
-                    <MDBCol md='7' className='' style={{ marginLeft: '-75px' }}>
+                    <MDBCol md='8' className='' style={{ marginLeft: '-75px' }}>
                         <img src={pill} alt='Brittany Ellison on Couch' className='img-fluid' />
                     </MDBCol>
-                    <MDBCol md='5' className='align-self-center'>
+                    <MDBCol md='4' className='align-self-center'>
                         <img src={psycho} alt='Align alternate logo' className='img-fluid' />
                     </MDBCol>
                 </MDBRow>

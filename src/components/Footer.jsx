@@ -13,10 +13,10 @@ const Footer = () => {
                         <p>
                             Brittany Ellison, LPC
                         </p>
-                        <p className='p-0 m-0'>25 Whitlock Place SE, St-101</p>
-                        <p className='p-0 m-0'>Marietta, Ga 30064</p>
-                        <p className='p-0 m-0'><a style={{ color: 'black' }} href='tel:4705173251'>470.517.3251</a></p>
-                        <p className='mb-4'><a style={{ color: 'black' }} href='mailto:brittellison1@gmail.com'>brittellison1@gmail.com</a></p>
+                        <p className='p-0 m-0'>1985 Riviera Drive, Suite 103-1063</p>
+                        <p className='p-0 m-0'>Mount Pleasant, SC 29464</p>
+                        <p className='p-0 m-0'><a style={{ color: 'black' }} href='tel:4042599479'>404.259.9479</a></p>
+                        <p className='mb-4'><a style={{ color: 'black' }} href='brittany@alignpsychotherapy.co'>brittany@alignpsychotherapy.co</a></p>
                         <MDBRow>
                             <MDBCol>
                                 <p>Georgia License #: <b>011125</b></p>
@@ -29,17 +29,14 @@ const Footer = () => {
                     <MDBCol md="4">
                         <h5 className="title black-text text-right">Helpful Links</h5>
                         <ul>
-                            <li className="black-text mb-1 text-right list-unstyled">
-                                Schedule Appointment
+                            <li className="black-text text-right list-unstyled">
+                                <Link style={{ color: 'black' }} to='/about'>About</Link>
                             </li>
                             <li className="black-text mb-1 text-right list-unstyled">
                                 <Link style={{ color: 'black' }} to='/services'>Services</Link>
                             </li>
                             <li className="black-text mb-1 text-right list-unstyled">
                                 <Link style={{ color: 'black' }} to='/contact'>Contact</Link>
-                            </li>
-                            <li className="black-text text-right list-unstyled">
-                                <Link style={{ color: 'black' }} to='/faq'>FAQ</Link>
                             </li>
                         </ul>
                     </MDBCol>

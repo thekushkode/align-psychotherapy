@@ -1,6 +1,6 @@
 /* BS NavBar CSS */
 .navbar {
-    min-height: 100px;
+    min-height: 50px;
     font-size: 20px !important;
     font-family: 'Trirong', serif !important;
     font-weight: 500 !important;
@@ -19,6 +19,10 @@
 .trirong-med {
     font-family: 'Trirong', serif !important;
     font-weight: 400 !important;
+}
+
+.hell {
+    font-family: Helvetica, sans-serif !important;
 }
 
 /* NavBar Div */

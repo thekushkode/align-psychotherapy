@@ -6,6 +6,8 @@ import Footer from "./Footer";
 import Nav from "./Nav";
 import AllServicesModal from './AllServicesModal';
 import sittype from '../assets/align-pics/sittype.jpg';
+import pill from '../assets/pill2.jpg';
+import psycho from '../assets/psycho.png';
 
 const Telehealth = () => {
 
@@ -15,9 +17,19 @@ const Telehealth = () => {
 
     return (
         <div>
-            <header style={{ marginBottom: '100px' }}>
+            <header style={{ marginBottom: '85px' }}>
                 <Nav />
             </header>
+            <section>
+                <MDBRow>
+                    <MDBCol md='7' className='' style={{ marginLeft: '-75px' }}>
+                        <img src={pill} alt='Brittany Ellison on Couch' className='img-fluid' />
+                    </MDBCol>
+                    <MDBCol md='5' className='align-self-center'>
+                        <img src={psycho} alt='Align alternate logo' className='img-fluid' />
+                    </MDBCol>
+                </MDBRow>
+            </section>
             <section className="my-5 alignlightgrey">
                 {/* <h2 className="h1-responsive font-weight-bold text-center my-5">
                     TeleHealth
@@ -129,7 +141,7 @@ const Telehealth = () => {
                     <hr className='hr-dark mb-5' style={{ margin: '0 100px' }} />
                     <MDBRow>
                         <MDBCol md='9'>
-                            <h4 className="text-center trirong-thin black-text w-responsive mx-auto mb-5">
+                            <h4 className="text-center hell black-text w-responsive mx-auto mb-5">
                                 Telehealth has met the need for mental health support no matter what circumstances or challenges present to access care. Virtual therapy is a huge step forward in wellness technology and I am extremely excited to provide teletherapy to clients near and far in the states I hold a license. There are endless benefits to teletherapy--convenience being among the top.
                                 </h4>
                             <a href='https://mytherapynyc.com/benefits-of-virtual-therapy/' target='_blank' rel="noopener noreferrer" ><p className="trirong-thin text-center w-responsive mx-auto mb-5">See Benefits of Virtual Therapy</p></a>

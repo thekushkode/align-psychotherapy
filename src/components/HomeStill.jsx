@@ -9,7 +9,8 @@ import {
     MDBContainer,
     MDBCard,
     MDBCardBody,
-    MDBStreak
+    MDBStreak,
+    MDBAvatar
 } from 'mdbreact';
 import './HomeStill.css';
 import './AlignColors.css';
@@ -18,9 +19,15 @@ import Footer from './Footer';
 import couch from '../assets/aligncouch.jpg';
 import logo from '../assets/logo-blk.png';
 import align4 from '../assets/photoshoot/align4.jpg';
-import keyboard from '../assets/align-pics/keyboard.jpg';
+import keyboard from '../assets/type.jpg';
 import rocks from '../assets/align-pics/rocks.jpg';
 import sittype from '../assets/align-pics/sittype.jpg';
+import cups from '../assets/cups.jpg';
+import gldfern from '../assets/gldfern.jpg';
+import vasetbl from '../assets/vasetbl.jpg';
+import btltbl from '../assets/btltbl.jpg';
+import mirrorflower from '../assets/mirrorflower.jpg';
+
 
 class HomeStill extends React.Component {
 
@@ -44,9 +51,9 @@ class HomeStill extends React.Component {
                             className='d-flex justify-content-center align-items-center px-md-3 px-sm-0'
                             style={{ height: '100vh', width: '100%', paddingTop: '1rem' }}
                         >
-                            <MDBRow>
+                            {/* <MDBRow>
                                 <MDBCol md='8' className='mb-4 black-text text-center align-self-center'>
-                                    {/* <h3 className='display-3 font-weight-bold trirong-med mb-0 pt-md-5'>
+                                    <h3 className='display-3 font-weight-bold trirong-med mb-0 pt-md-5'>
                                         Align Collective
                                     </h3>
                                     <hr className='hr-dark my-4 w-75' />
@@ -55,24 +62,24 @@ class HomeStill extends React.Component {
                                     </h4>
                                     <MDBBtn outline rounded color='black'>
                                         <MDBIcon fas icon='envelope' size='lg' className='mr-1' /> Contact Us Today
-                                    </MDBBtn> */}
+                                    </MDBBtn>
                                     <div className="d-flex justify-content-center">
-                                        <img src={logo} className='img-fluid' width='80%' alt='align logo' />
+                                        <img src={logo} className='img-fluid' alt='align logo' />
                                     </div>
-                                    {/* <MDBBtn outline rounded color='black'>
+                                    <MDBBtn outline rounded color='black'>
                                         <MDBIcon fas icon='envelope' size='lg' className='mr-1' />Get In Touch
-                                    </MDBBtn> */}
+                                    </MDBBtn>
                                 </MDBCol>
                                 <MDBCol md='4'>
                                     <div className="d-flex justify-content-center">
                                         <img src={rocks} className='img-fluid' alt='balancing rocks' />
                                     </div>
                                 </MDBCol>
-                            </MDBRow>
+                            </MDBRow> */}
                         </MDBContainer>
                     </MDBView>
                 </div>
-                <section className='alignlightgrey'>
+                <section>
                     {/* <MDBRow>
                         <MDBCol md='8' className='align-self-center'>
                         <p className='pl-3'>
@@ -127,11 +134,67 @@ class HomeStill extends React.Component {
                         </div>
                     </div>
                 </section> */}
+                <section className='aligncreammed'>
+                    <MDBCard className="mt-5 mb-3 px-5 pb-3 text-center">
+                        <MDBCardBody>
+                            {/* <h2 className="h1-responsive font-weight-bold my-5">
+                                Our amazing team
+                            </h2>
+                            <p className="grey-text w-responsive mx-auto mb-5">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
+                                error amet numquam iure provident voluptate esse quasi, veritatis
+                                totam voluptas nostrum quisquam eum porro a pariatur veniam.
+                            </p> */}
+                            <MDBRow className='mt-4' >
+
+                                <MDBCol md='4' className="mb-lg-0 mb-5">
+                                    <MDBAvatar
+                                        tag="img"
+                                        src={keyboard}
+                                        className="rounded z-depth-1 img-fluid"
+                                        alt="flower in bottle on table"
+                                    />
+                                    <h3 className="font-weight-bold mt-4 mb-3 trirong-med">Virtual Therapy</h3>
+                                </MDBCol>
+
+                                <MDBCol md='4' className="mb-lg-0 mb-5">
+                                    <MDBAvatar
+                                        tag="img"
+                                        src={gldfern}
+                                        className="rounded z-depth-1 img-fluid"
+                                        alt="wheat plant in vase"
+                                    />
+                                    <h3 className="font-weight-bold mt-4 mb-3 trirong-med">Counseling Approach</h3>
+                                </MDBCol>
+
+                                <MDBCol md='4' className="mb-lg-0 mb-5">
+                                    <MDBAvatar
+                                        tag="img"
+                                        src={vasetbl}
+                                        className="rounded z-depth-1 img-fluid"
+                                        alt="vase on table"
+                                    />
+                                    <h3 className="font-weight-bold mt-4 mb-3 trirong-med">Additional Resources</h3>
+                                </MDBCol>
+                            </MDBRow>
+                        </MDBCardBody>
+                    </MDBCard>
+                </section>
                 <section >
                     <MDBContainer>
-                        <MDBStreak by="Mahatma Gandhi" wrapperClass='white'>
-                            Happiness is when what you think, what you say and what you do are in harmony.
-                        </MDBStreak>
+                        <MDBRow>
+                            <MDBCol md='3'>
+                                <img src={mirrorflower} alt='white clay cups' className='img-fluid rounded mb-2' style={{ marginTop: '100px' }} />
+                            </MDBCol>
+                            <MDBCol md='6' className='align-self-center'>
+                                <MDBStreak by="Mahatma Gandhi" wrapperClass='white'>
+                                    Happiness is when what you think, what you say and what you do are in harmony.
+                                </MDBStreak>
+                            </MDBCol>
+                            <MDBCol md='3'>
+                                <img src={btltbl} alt='white clay cups' className='img-fluid rounded' style={{ marginTop: '-5px' }} />
+                            </MDBCol>
+                        </MDBRow>
                     </MDBContainer>
                 </section>
                 {/* <section className='alignlightgrey'>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
     MDBMask,
     MDBRow,
@@ -94,31 +95,33 @@ class HomeStill extends React.Component {
                     <MDBContainer className='py-3'>
 
                         <MDBRow>
-                            <MDBCol md="8" className='align-self-center'>
-                                <h1 className='h1-responsive font-weight-bold black-text mirage'>
-                                    Welcome to Align Psychotherapy!
-                                </h1>
-                                <hr className='hr-dark mx-1' />
-                                <p className="trirong-thin">
-                                    Do you feel like you have outgrown who you used to be, old ways of thinking, being and living that no longer serve you? Do you feel you are not living a life aligned with your authentic self? Do you feel stuck, hopeless, lonely, or lost? Are you seeking to know yourself better, and can envision the person you want to be but feel like they are just beyond reach?
-                            </p>
-                                <p className='trirong-thin'>
-                                    Therapy is a powerful place to explore new ways of understanding yourself, new ways of showing up in the world and how you relate to others -- it is a space to slow down, tune in and explore your internal landscape. When we allow ourselves the opportunity to process experiences in our life from a place of compassion and curiosity we empower ourselves to make more informed choices. The self-knowledge and growth we invite into our lives creates a life more aligned with our values and goals. The greater understanding we have of our feelings, motivations, thought patterns and behaviors the greater ability for meaningful change in our lives. Sometimes all you need to do is start.
-                            </p>
-                                <div className="d-flex justify-content-center">
-                                    <MDBBtn outline rounded color='black'>
-                                        <MDBIcon fas icon='envelope' size='lg' className='mr-1' />Get In Touch
-                                </MDBBtn>
-                                </div>
-                            </MDBCol>
                             <MDBCol md="4">
                                 <img
-                                    className="d-block py-2 img-fluid rounded-circle"
+                                    className="d-block py-2 img-fluid rounded"
                                     src={align4}
                                     alt="Brittany Ellison head shot"
                                 />
                                 {/* <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
                                     </MDBView> */}
+                            </MDBCol>
+                            <MDBCol md="8" className='align-self-center'>
+                                <h1 className='h1-responsive font-weight-bold black-text mirage'>
+                                    Welcome to Align Psychotherapy
+                                </h1>
+                                <hr className='hr-dark mx-1' />
+                                <p className="trirong-thin">
+                                    Do you feel like you have outgrown who you used to be, old ways of thinking, being and living that no longer serve you? Do you feel you are not living a life aligned with your authentic self? Do you feel stuck, hopeless, lonely, or lost? Are you seeking to know yourself better, and can envision the person you want to be but feel like they are just beyond reach?
+                                </p>
+                                <p className='trirong-thin'>
+                                    Therapy is a powerful place to explore new ways of understanding yourself, new ways of showing up in the world and how you relate to others -- it is a space to slow down, tune in and explore your internal landscape. When we allow ourselves the opportunity to process experiences in our life from a place of compassion and curiosity we empower ourselves to make more informed choices. The self-knowledge and growth we invite into our lives creates a life more aligned with our values and goals. The greater understanding we have of our feelings, motivations, thought patterns and behaviors the greater ability for meaningful change in our lives. Sometimes all you need to do is start.
+                                </p>
+                                <div className="d-flex justify-content-center">
+                                    <Link to='/contact'>
+                                        <MDBBtn outline rounded color='black'>
+                                            <MDBIcon fas icon='envelope' size='lg' className='mr-1' />Get In Touch
+                                        </MDBBtn>
+                                    </Link>
+                                </div>
                             </MDBCol>
                         </MDBRow>
                     </MDBContainer>
@@ -148,33 +151,39 @@ class HomeStill extends React.Component {
                             <MDBRow className='mt-4' >
 
                                 <MDBCol md='4' className="mb-lg-0 mb-5">
-                                    <MDBAvatar
-                                        tag="img"
-                                        src={keyboard}
-                                        className="rounded z-depth-1 img-fluid"
-                                        alt="flower in bottle on table"
-                                    />
-                                    <h3 className="font-weight-bold mt-4 mb-3 trirong-med">Virtual Therapy</h3>
+                                    <Link to='/virtual' style={{ color: 'black' }}>
+                                        <MDBAvatar
+                                            tag="img"
+                                            src={keyboard}
+                                            className="rounded z-depth-1 img-fluid"
+                                            alt="flower in bottle on table"
+                                        />
+                                        <h3 className="font-weight-bold mt-4 mb-3 trirong-med">Virtual Therapy</h3>
+                                    </Link>
                                 </MDBCol>
 
                                 <MDBCol md='4' className="mb-lg-0 mb-5">
-                                    <MDBAvatar
-                                        tag="img"
-                                        src={gldfern}
-                                        className="rounded z-depth-1 img-fluid"
-                                        alt="wheat plant in vase"
-                                    />
-                                    <h3 className="font-weight-bold mt-4 mb-3 trirong-med">Counseling Approach</h3>
+                                    <Link to='/about' style={{ color: 'black' }}>
+                                        <MDBAvatar
+                                            tag="img"
+                                            src={gldfern}
+                                            className="rounded z-depth-1 img-fluid"
+                                            alt="wheat plant in vase"
+                                        />
+                                        <h3 className="font-weight-bold mt-4 mb-3 trirong-med">Counseling Approach</h3>
+                                    </Link>
                                 </MDBCol>
 
                                 <MDBCol md='4' className="mb-lg-0 mb-5">
-                                    <MDBAvatar
-                                        tag="img"
-                                        src={vasetbl}
-                                        className="rounded z-depth-1 img-fluid"
-                                        alt="vase on table"
-                                    />
-                                    <h3 className="font-weight-bold mt-4 mb-3 trirong-med">Additional Resources</h3>
+                                    <a href='https://mytherapynyc.com/benefits-of-virtual-therapy/' style={{ color: 'black' }} target='_blank' rel="noopener noreferrer" >
+                                        <MDBAvatar
+                                            tag="img"
+                                            src={vasetbl}
+                                            className="rounded z-depth-1 img-fluid"
+                                            alt="vase on table"
+                                        />
+                                        <h3 className="font-weight-bold mt-4 mb-3 trirong-med">Additional Resources</h3>
+                                    </a>
                                 </MDBCol>
                             </MDBRow>
                         </MDBCardBody>

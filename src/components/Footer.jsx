@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon } from "mdbreact";
 import logo from '../assets/alignvert.png';
 import { Link } from 'react-router-dom';
 
@@ -24,7 +24,7 @@ const Footer = () => {
                         </MDBRow>
                     </MDBCol>
                     <MDBCol md='4' className='text-center'>
-                        <img src={logo} width='100px' alt='Align Psychotherapy Logo' className='img-fluid'/>
+                        <img src={logo} width='100px' alt='Align Psychotherapy Logo' className='img-fluid' />
                     </MDBCol>
                     <MDBCol md="4">
                         <h5 className="title black-text text-right">Helpful Links</h5>
@@ -33,16 +33,24 @@ const Footer = () => {
                                 <Link style={{ color: 'black' }} to='/about'>About</Link>
                             </li>
                             <li className="black-text mb-1 text-right list-unstyled">
-                                <Link style={{ color: 'black' }} to='/services'>Services</Link>
+                                <Link style={{ color: 'black' }} to='/virtual'>Services</Link>
                             </li>
                             <li className="black-text mb-1 text-right list-unstyled">
                                 <Link style={{ color: 'black' }} to='/contact'>Contact</Link>
                             </li>
                         </ul>
+                        <div className='d-flex justify-content-end' >
+                            <a className='black-text mr-2' href='mailto:brittany@alignpsychotherapy.co'>
+                                <MDBIcon fas icon='envelope' />
+                            </a>
+                            <a className='black-text' href='https://www.instagram.com/alignpsychotherapy/'>
+                                <MDBIcon fab icon='instagram' />
+                            </a>
+                        </div>
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>
-            <div style={{ backgroundColor: '#e4e5e7'}} className="footer-copyright text-center py-3">
+            <div style={{ backgroundColor: '#e4e5e7' }} className="footer-copyright text-center py-3">
                 <MDBContainer className='d-flex justify-content-between black-text' fluid>
                     <div>
                         &copy; {new Date().getFullYear()} Copyright: Align Psychotherapy

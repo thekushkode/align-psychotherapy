@@ -19,7 +19,7 @@ function App() {
   return (
     <Switch>
       <Route exact path='/' component={HomeStill} />
-      <Route exact path='/services' component={Telehealth} />
+      <Route exact path='/virtual' component={Telehealth} />
       <Route exact path='/contact' component={ContactPage} />
       <Route exact path='/faq' component={FAQ} />
       <Route exact path='/about' component={About} />

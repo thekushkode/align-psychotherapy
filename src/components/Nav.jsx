@@ -52,7 +52,7 @@ class Nav extends Component {
                         </MDBNavbarToggler>
                         <MDBCollapse id='navbarCollapse' isOpen={collapseID} navbar>
                             <MDBNavbarNav left>
-                                <MDBNavItem>
+                                {/* <MDBNavItem>
                                     <MDBNavLink className='black-text' link to='/about'>
                                         About
                                     </MDBNavLink>
@@ -66,10 +66,25 @@ class Nav extends Component {
                                     <MDBNavLink className='black-text' link to='/contact'>
                                         Contact
                                     </MDBNavLink>
-                                </MDBNavItem>
+                                </MDBNavItem> */}
                             </MDBNavbarNav>
                             <MDBNavbarNav right>
-                                <MDBNavItem className='align-self-center'>
+                                <MDBNavItem>
+                                    <MDBNavLink className='black-text' link to='/about'>
+                                        About
+                                    </MDBNavLink>
+                                </MDBNavItem>
+                                <MDBNavItem>
+                                    <MDBNavLink className='black-text' link to='/virtual'>
+                                        Virtual
+                                    </MDBNavLink>
+                                </MDBNavItem>
+                                <MDBNavItem>
+                                    <MDBNavLink className='black-text' link to='/contact'>
+                                        Contact
+                                    </MDBNavLink>
+                                </MDBNavItem>
+                                {/* <MDBNavItem className='align-self-center'>
                                     <a className='black-text' href='mailto:brittany@alignpsychotherapy.co'>
                                         <MDBIcon fas icon='envelope' />
                                     </a>
@@ -78,7 +93,7 @@ class Nav extends Component {
                                     <a className='black-text' href='https://www.instagram.com/alignpsychotherapy/'>
                                         <MDBIcon fab icon='instagram' />
                                     </a>
-                                </MDBNavItem>
+                                </MDBNavItem> */}
                             </MDBNavbarNav>
                         </MDBCollapse>
                     </MDBContainer>

@@ -23,7 +23,7 @@ class ContactPage extends Component {
                         Contact us
                     </h2>
                     <p className="text-center w-responsive trirong-thin mx-auto pb-5">
-                        Thank you for your interest in Align Psychotherapy! Please each out with any questions or to schedule a consultation. I look forward to helping you.
+                        Thank you for your interest in Align Psychotherapy! <br/>Please reach out with any questions or to schedule a consultation. <br/>I look forward to helping you.
                     </p>
                     <MDBRow>
                         <MDBCol md='3' >
@@ -32,17 +32,19 @@ class ContactPage extends Component {
                         <MDBCol md="9" className="md-0 mb-5">
                             <form>
                                 <MDBRow>
-                                    <MDBCol md="6">
+                                    <MDBCol md="12">
                                         <div className="md-form mb-0">
-                                            <MDBInput type="text" id="contact-name" label="Your name" />
+                                            <MDBInput type="text" id="contact-name" label="Name" />
                                         </div>
                                     </MDBCol>
-                                    <MDBCol md="6">
+                                </MDBRow>
+                                <MDBRow>
+                                    <MDBCol md="12">
                                         <div className="md-form mb-0">
                                             <MDBInput
                                                 type="text"
                                                 id="contact-email"
-                                                label="Your email"
+                                                label="Email"
                                             />
                                         </div>
                                     </MDBCol>
@@ -60,7 +62,7 @@ class ContactPage extends Component {
                                             <MDBInput
                                                 type="textarea"
                                                 id="contact-message"
-                                                label="Your message"
+                                                label="Message"
                                             />
                                         </div>
                                     </MDBCol>

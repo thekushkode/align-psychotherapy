@@ -113,12 +113,12 @@ class HomeStill extends React.Component {
                                     Do you feel like you have outgrown who you used to be, old ways of thinking, being and living that no longer serve you? Do you feel you are not living a life aligned with your authentic self? Do you feel stuck, hopeless, lonely, or lost? Are you seeking to know yourself better, and can envision the person you want to be but feel like they are just beyond reach?
                                 </p>
                                 <p className='trirong-thin'>
-                                    Therapy is a powerful place to explore new ways of understanding yourself, new ways of showing up in the world and how you relate to others -- it is a space to slow down, tune in and explore your internal landscape. When we allow ourselves the opportunity to process experiences in our life from a place of compassion and curiosity we empower ourselves to make more informed choices. The self-knowledge and growth we invite into our lives creates a life more aligned with our values and goals. The greater understanding we have of our feelings, motivations, thought patterns and behaviors the greater ability for meaningful change in our lives. Sometimes all you need to do is start.
+                                    Therapy is a powerful place to explore new ways of understanding yourself, new ways of showing up in the world and how you relate to others -- it is a space to slow down, tune in and explore your internal landscape. When we allow ourselves the opportunity to process experiences in our life from a place of compassion and curiosity we empower ourselves to make more informed choices. The self-knowledge and growth we invite into our lives creates a life more aligned with our values and goals. The greater understanding we have of our feelings, motivations, thought patterns and behaviors the greater ability for meaningful change in our lives.
                                 </p>
                                 <div className="d-flex justify-content-center">
                                     <Link to='/contact'>
-                                        <MDBBtn outline rounded color='black'>
-                                            <MDBIcon fas icon='envelope' size='lg' className='mr-1' />Get In Touch
+                                        <MDBBtn outline rounded color='grey lighten-5' className='' size="lg">
+                                            Get In Touch
                                         </MDBBtn>
                                     </Link>
                                 </div>

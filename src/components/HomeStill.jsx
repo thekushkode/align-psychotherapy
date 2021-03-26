@@ -92,7 +92,7 @@ class HomeStill extends React.Component {
                         <img src={align4} alt='' className='d-block img-fluid p-3' />
                         </MDBCol>
                     </MDBRow> */}
-                    <MDBContainer className='py-3'>
+                    <div className='px-5 py-3 aligncreamdark'>
 
                         <MDBRow>
                             <MDBCol md="4">
@@ -124,7 +124,7 @@ class HomeStill extends React.Component {
                                 </div>
                             </MDBCol>
                         </MDBRow>
-                    </MDBContainer>
+                    </div>
                 </section>
                 {/* <section >
                     <div>
@@ -137,8 +137,8 @@ class HomeStill extends React.Component {
                         </div>
                     </div>
                 </section> */}
-                <section className='aligncreammed'>
-                    <MDBCard className="mt-5 mb-3 px-5 pb-3 text-center">
+                <section className=''>
+                    <MDBCard className=" mb-3 px-5 pb-3 text-center alignlightbrown">
                         <MDBCardBody>
                             {/* <h2 className="h1-responsive font-weight-bold my-5">
                                 Our amazing team
@@ -193,7 +193,7 @@ class HomeStill extends React.Component {
                     <MDBContainer>
                         <MDBRow>
                             <MDBCol md='3'>
-                                <img src={mirrorflower} alt='white clay cups' className='img-fluid rounded mb-2' style={{ marginTop: '100px' }} />
+                                <img src={mirrorflower} alt='flower in front of mirror' className='img-fluid rounded mb-2' style={{ marginTop: '100px' }} />
                             </MDBCol>
                             <MDBCol md='6' className='align-self-center'>
                                 <MDBStreak by="Mahatma Gandhi" wrapperClass='white'>
@@ -201,7 +201,7 @@ class HomeStill extends React.Component {
                                 </MDBStreak>
                             </MDBCol>
                             <MDBCol md='3'>
-                                <img src={btltbl} alt='white clay cups' className='img-fluid rounded' style={{ marginTop: '-5px' }} />
+                                <img src={btltbl} alt='glass bottle with flower in it' className='img-fluid rounded' style={{ marginTop: '-5px' }} />
                             </MDBCol>
                         </MDBRow>
                     </MDBContainer>

@@ -9,6 +9,10 @@ import sittype from '../assets/type.jpg';
 import pill from '../assets/pill2.jpg';
 import psycho from '../assets/psycho.png';
 import tumbleweed from '../assets/tumbleweed.jpg';
+import tel1 from '../assets/tel1.jpg';
+import tel2 from '../assets/tel2.jpg';
+import tel3 from '../assets/tel3.jpg';
+import tel4 from '../assets/tel4.jpg';
 
 const Telehealth = () => {
 
@@ -21,16 +25,16 @@ const Telehealth = () => {
             <header style={{ marginBottom: '65px' }}>
                 <Nav />
             </header>
-            <section className="alignlightbrown" >
+            {/* <section className="alignlightbrown" >
                     <MDBRow className='text-center'>
-                        {/* <MDBCol md='8' className='' style={{ marginLeft: '-75px' }}>
+                        <MDBCol md='8' className='' style={{ marginLeft: '-75px' }}>
                         <img src={pill} alt='Brittany Ellison on Couch' className='img-fluid' />
-                    </MDBCol> */}
+                    </MDBCol>
                         <MDBCol md='12' className='align-self-center'>
                             <img src={psycho} alt='Align alternate logo' className='img-fluid' />
                         </MDBCol>
                     </MDBRow>
-            </section>
+            </section> */}
             <section className="alignlightgrey">
                 <h2 className="h1-responsive black-text mirage font-weight-bold text-center mb-3 pt-5">
                     Virtual Therapy
@@ -48,7 +52,25 @@ const Telehealth = () => {
                     </MDBCol>
                 </MDBRow>
             </section>
-            <section className="mb-5">
+            <section className='aligngrey'>
+                <MDBRow className='p-4'>
+                    <MDBCol md='6' className='mb-4'>
+                        <img src={tel1} alt='' className='img-fluid' />
+                    </MDBCol>
+                    <MDBCol md='6' className=''>
+                        <img src={tel2} alt='' className='img-fluid' />
+                    </MDBCol>
+                </MDBRow>
+                <MDBRow className='px-4 pb-4'>
+                    <MDBCol md='6' className='mb-4'>
+                        <img src={tel3} alt='' className='img-fluid' />
+                    </MDBCol>
+                    <MDBCol md='6' className=''>
+                        <img src={tel4} alt='' className='img-fluid' />
+                    </MDBCol>
+                </MDBRow>
+            </section>
+            {/* <section className="mb-5">
                 <h2 className="h1-responsive black-text mirage font-weight-bold text-center my-3">
                     Pricing
                         </h2>
@@ -63,8 +85,8 @@ const Telehealth = () => {
                         </p>
                     </MDBCol>
                 </MDBRow>
-            </section>
-            <footer style={{ marginTop: '-50px' }}>
+            </section> */}
+            <footer style={{ marginTop: '-25px' }}>
                 <Footer />
             </footer>
         </div>

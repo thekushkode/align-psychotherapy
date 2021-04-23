@@ -44,6 +44,10 @@
     background: rgb(235, 231, 225) !important;
 }
 
+.aligngrey {
+    background: rgb(231, 225, 221) !important;
+}
+
 .aligncream {
     background: rgb(235, 228, 212) !important;
 }
@@ -63,6 +67,10 @@
 
 .alignlightbrown {
     background-color: rgb(161, 144, 129) !important;
+}
+
+.alignbrown2 {
+    background-color: rgb(151, 134, 119) !important;
 }
 
 

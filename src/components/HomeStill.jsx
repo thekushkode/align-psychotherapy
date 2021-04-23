@@ -27,7 +27,7 @@ import cups from '../assets/cups.jpg';
 import gldfern from '../assets/gldfern.jpg';
 import vasetbl from '../assets/vasetbl.jpg';
 import btltbl from '../assets/btltbl.jpg';
-import mirrorflower from '../assets/mirrorflower.jpg';
+import ghandi from '../assets/ghandi.jpg';
 
 
 class HomeStill extends React.Component {
@@ -138,7 +138,7 @@ class HomeStill extends React.Component {
                     </div>
                 </section> */}
                 <section className=''>
-                    <MDBCard className=" mb-3 px-5 pb-3 text-center alignlightbrown">
+                    <MDBCard className="px-5 pb-3 text-center aligngrey">
                         <MDBCardBody>
                             {/* <h2 className="h1-responsive font-weight-bold my-5">
                                 Our amazing team
@@ -190,7 +190,7 @@ class HomeStill extends React.Component {
                     </MDBCard>
                 </section>
                 <section >
-                    <MDBContainer>
+                    {/* <MDBContainer>
                         <MDBRow>
                             <MDBCol md='3'>
                                 <img src={mirrorflower} alt='flower in front of mirror' className='img-fluid rounded mb-2' style={{ marginTop: '100px' }} />
@@ -204,7 +204,8 @@ class HomeStill extends React.Component {
                                 <img src={btltbl} alt='glass bottle with flower in it' className='img-fluid rounded' style={{ marginTop: '-5px' }} />
                             </MDBCol>
                         </MDBRow>
-                    </MDBContainer>
+                    </MDBContainer> */}
+                    <img className='img-fluid' src={ghandi} alt='Quote by Ghandi' />
                 </section>
                 {/* <section className='alignlightgrey'>
                     <h2 className="h1-responsive black-text mirage font-weight-bold text-center mb-3 pt-5">

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <MDBFooter style={{ backgroundColor: "#f1f6f7" }} className="font-small pt-4 mt-4">
+        <MDBFooter className="font-small pt-4 mt-4 alignlightbrown">
             <MDBContainer fluid className="text-center black-text text-md-left">
                 <MDBRow>
                     <MDBCol md="4">
@@ -13,15 +13,16 @@ const Footer = () => {
                         <p>
                             Brittany Ellison, LPC
                         </p>
+                        <p style={{ marginTop: '-17px' }}>Georgia License #: <b>011125</b></p>
                         {/* <p className='p-0 m-0'>1985 Riviera Drive, Suite 103-1063</p>
                         <p className='p-0 m-0'>Mount Pleasant, SC 29464</p>
                         <p className='p-0 m-0'><a style={{ color: 'black' }} href='tel:4042599479'>404.259.9479</a></p>
                         <p className='mb-4'><a style={{ color: 'black' }} href='mailto:brittany@alignpsychotherapy.co'>brittany@alignpsychotherapy.co</a></p> */}
-                        <MDBRow>
+                        {/* <MDBRow>
                             <MDBCol>
                                 <p>Georgia License #: <b>011125</b></p>
                             </MDBCol>
-                        </MDBRow>
+                        </MDBRow> */}
                     </MDBCol>
                     <MDBCol md='4' className='text-center'>
                         <img src={logo} width='70px' alt='Align Psychotherapy Logo' className='img-fluid' />
@@ -55,7 +56,7 @@ const Footer = () => {
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>
-            <div style={{ backgroundColor: '#e4e5e7' }} className="footer-copyright text-center py-3">
+            <div  className="alignbrown2 footer-copyright text-center py-3">
                 <MDBContainer className='d-flex justify-content-between black-text' fluid>
                     <div>
                         &copy; {new Date().getFullYear()} Copyright: Align Psychotherapy, LLC

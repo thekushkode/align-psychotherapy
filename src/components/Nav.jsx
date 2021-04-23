@@ -36,7 +36,7 @@ class Nav extends Component {
                 {/* <div className="navDiv d-flex justify-content-center">
                 <img src={logo} alt='Align logo' className='img-fluid w-25' />
                 </div> */}
-                <MDBNavbar style={{ backgroundColor: "#F1F6F7" }} expand='md' fixed='top'>
+                <MDBNavbar className='alignlightbrown' expand='md' fixed='top'>
                     <MDBContainer>
                         <MDBNavbarBrand>
                             <span><a href='/' style={{ color: "white" }}><img src={logo} alt='Align logo' style={{ width: '150px', padding: '0px', marginTop: '-5px' }}></img></a></span>

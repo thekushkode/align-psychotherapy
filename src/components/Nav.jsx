@@ -39,7 +39,7 @@ class Nav extends Component {
                 <MDBNavbar className='alignlightbrown' expand='md' fixed='top'>
                     <MDBContainer>
                         <MDBNavbarBrand>
-                            <span><a href='/' style={{ color: "white" }}><img src={logo} alt='Align logo' style={{ width: '150px', padding: '0px', marginTop: '-5px' }}></img></a></span>
+                            <span><a href='/' ><img src={logo} alt='Align logo' style={{ width: '150px', padding: '0px', marginTop: '-5px' }}></img></a></span>
                         </MDBNavbarBrand>
                         <MDBNavbarToggler
                             onClick={this.toggleCollapse('navbarCollapse')}

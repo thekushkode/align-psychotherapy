@@ -189,7 +189,7 @@ class HomeStill extends React.Component {
                         </MDBCardBody>
                     </MDBCard>
                 </section>
-                <section >
+                <section style={{ backgroundColor: 'white' }} className='text-center'>
                     {/* <MDBContainer>
                         <MDBRow>
                             <MDBCol md='3'>
@@ -205,7 +205,7 @@ class HomeStill extends React.Component {
                             </MDBCol>
                         </MDBRow>
                     </MDBContainer> */}
-                    <img className='img-fluid' src={ghandi} alt='Quote by Ghandi' />
+                    <img className='img-fluid w-75' src={ghandi} alt='Quote by Ghandi' />
                 </section>
                 {/* <section className='alignlightgrey'>
                     <h2 className="h1-responsive black-text mirage font-weight-bold text-center mb-3 pt-5">

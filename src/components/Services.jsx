@@ -40,19 +40,43 @@ const Telehealth = () => {
                     Virtual Therapy
                         </h2>
                 <hr className='hr-dark mb-5' style={{ margin: '0 200px' }} />
-                <MDBRow>
-                    <MDBCol md='6' className='ml-5'>
+                {/* <MDBRow>
+                    <MDBCol md='9' className=''>
                         <p className="text-center trirong-med black-text w-responsive mx-auto mb-5">
-                            Telehealth has met the need for mental health support no matter what circumstances or challenges present to access care. Virtual therapy is a huge step forward in wellness technology and I am extremely excited to provide teletherapy to clients near and far in the states I hold a license. There are endless benefits to teletherapy--convenience being among the top.
+                            In today’s world of technology, accessing healthcare is easier than ever. Telehealth or virtual therapy has decreased the barriers or challenges in accessing care. In addition it provides comfort, convenience and flexibility to the therapeutic experience. Unfortunately, it can be difficult to find a therapist in your community, with your specialization and whose fee or insurance policy is a good fit. Also, once you find a therapist there can often be a long waitlist. Virtual therapy enables you to receive services you may otherwise not be unable to obtain.<br/><br/>
+
+                            Virtual therapy is a huge step forward in wellness technology and I am extremely excited to provide this opportunity to clients near and far in the states I hold a license. It is the same high-quality mental health care but conveniently offered from the comfort of your own space increasing the flexibility of meeting as there is no planning around traffic to drive to an office. You and your therapist will login to a secure hippa compliant website to begin your therapy session. Clients can use the secure video platform right on their phone, computer, or tablet. This allows you to have therapy sessions from the comfort of your home, on your lunch break or even in your car. Therapy can fit into your busy day. The benefits to virtual therapy are endless. Please reach out if you have any questions!
+
                                 </p>
                         <a href='https://mytherapynyc.com/benefits-of-virtual-therapy/' target='_blank' rel="noopener noreferrer" ><p className="trirong-thin text-center w-responsive mx-auto mb-5">See Benefits of Virtual Therapy</p></a>
                     </MDBCol>
-                    <MDBCol md='3' className='ml-5'>
+                    <MDBCol md='3' className=''>
                         <img src={sittype} alt='girl sitting and typing on laptop' className='img-fluid pb-3' width='90%' />
                     </MDBCol>
+                </MDBRow> */}
+                <MDBRow className='d-flex justify-content-between mx-2'>
+                    <img src={tel1} alt='' className='img-fluid w-25' />
+                    <img src={tel2} alt='' className='img-fluid w-25' />
+                </MDBRow>
+                <MDBRow className='d-flex justify-content-center'>
+                    <MDBCol md='6'>
+                        <p className="trirong-med black-text w-responsive mx-auto my-4">
+                            In today’s world of technology, accessing healthcare is easier than ever. Telehealth or virtual therapy has decreased the barriers or challenges in accessing care. In addition it provides comfort, convenience and flexibility to the therapeutic experience. Unfortunately, it can be difficult to find a therapist in your community, with your specialization and whose fee or insurance policy is a good fit. Also, once you find a therapist there can often be a long waitlist. Virtual therapy enables you to receive services you may otherwise not be unable to obtain.<br /><br />
+
+                            Virtual therapy is a huge step forward in wellness technology and I am extremely excited to provide this opportunity to clients near and far in the states I hold a license. It is the same high-quality mental health care but conveniently offered from the comfort of your own space increasing the flexibility of meeting as there is no planning around traffic to drive to an office. You and your therapist will login to a secure hippa compliant website to begin your therapy session. Clients can use the secure video platform right on their phone, computer, or tablet. This allows you to have therapy sessions from the comfort of your home, on your lunch break or even in your car. Therapy can fit into your busy day. The benefits to virtual therapy are endless. Please reach out if you have any questions!
+
+                    </p>
+                    </MDBCol>
+                </MDBRow>
+                <MDBRow>
+                    <img src={sittype} alt='girl sitting and typing on laptop' className='img-fluid mx-auto pb-3 w-25' />
+                </MDBRow>
+                <MDBRow className='d-flex justify-content-between mx-2 pb-2'>
+                    <img src={tel3} alt='' className='img-fluid w-25' />
+                    <img src={tel4} alt='' className='img-fluid w-25' />
                 </MDBRow>
             </section>
-            <section className='aligngrey'>
+            {/* <section className='aligngrey'>
                 <MDBRow className='p-4'>
                     <MDBCol md='6' className='mb-4'>
                         <img src={tel1} alt='' className='img-fluid' />
@@ -69,7 +93,7 @@ const Telehealth = () => {
                         <img src={tel4} alt='' className='img-fluid' />
                     </MDBCol>
                 </MDBRow>
-            </section>
+            </section> */}
             {/* <section className="mb-5">
                 <h2 className="h1-responsive black-text mirage font-weight-bold text-center my-3">
                     Pricing

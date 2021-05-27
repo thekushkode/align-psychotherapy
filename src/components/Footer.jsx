@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <MDBFooter className="font-small pt-4 mt-4 alignlightbrown">
-            <MDBContainer fluid className="text-center black-text text-md-left">
+            <MDBContainer fluid style={{ color: 'rgb(235, 231, 225)' }} className="text-center text-md-left">
                 <MDBRow>
                     <MDBCol md="4">
                         <h4 className="title">Align Psychotherapy</h4>
@@ -43,13 +43,13 @@ const Footer = () => {
                         <p className='p-0 m-0 text-right'>1985 Riviera Drive</p>
                         <p className='p-0 m-0 text-right'>Suite 103-1063</p>
                         <p className='p-0 m-0 text-right'>Mount Pleasant, SC 29464</p>
-                        <p className='p-0 m-0 text-right'><a style={{ color: 'black' }} href='tel:4042599479'>404.259.9479</a></p>
-                        <p className='mb-4 text-right'><a style={{ color: 'black' }} href='mailto:brittany@alignpsychotherapy.co'>brittany@alignpsychotherapy.co</a></p>
+                        <p className='p-0 m-0 text-right'><a style={{ color: 'rgb(235, 231, 225)' }} href='tel:4042599479'>404.259.9479</a></p>
+                        <p className='mb-4 text-right'><a style={{ color: 'rgb(235, 231, 225)' }} href='mailto:brittany@alignpsychotherapy.co'>brittany@alignpsychotherapy.co</a></p>
                         <div className='d-flex justify-content-end' >
-                            <a className='black-text mr-2' href='mailto:brittany@alignpsychotherapy.co'>
+                            <a  style={{ color: 'rgb(235, 231, 225)' }} className='mr-2' href='mailto:brittany@alignpsychotherapy.co'>
                                 <MDBIcon fas icon='envelope' />
                             </a>
-                            <a className='black-text' href='https://www.instagram.com/alignpsychotherapy/'>
+                            <a style={{ color: 'rgb(235, 231, 225)' }} href='https://www.instagram.com/alignpsychotherapy/'>
                                 <MDBIcon fab icon='instagram' />
                             </a>
                         </div>
@@ -57,12 +57,12 @@ const Footer = () => {
                 </MDBRow>
             </MDBContainer>
             <div  className="alignbrown2 footer-copyright text-center py-3">
-                <MDBContainer className='d-flex justify-content-between black-text' fluid>
+                <MDBContainer style={{ color: 'rgb(235, 231, 225)' }} className='d-flex justify-content-between' fluid>
                     <div>
                         &copy; {new Date().getFullYear()} Copyright: Align Psychotherapy, LLC
                     </div>
                     <div>
-                        Powered By: <a style={{ color: 'black' }} href='https://www.goatwebdesigns.com'>Goat Web Designs</a>
+                        Powered By: <a style={{ color: 'white' }} href='https://www.goatwebdesigns.com'>Goat Web Designs</a>
                     </div>
                 </MDBContainer>
             </div>

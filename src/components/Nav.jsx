@@ -46,7 +46,7 @@ class Nav extends Component {
                             tag='button'
                             className='mb-4'
                         >
-                            <span className="black-text">
+                            <span style={{ color: 'rgb(235, 231, 225)' }} >
                                 <MDBIcon icon="bars" />
                             </span>
                         </MDBNavbarToggler>
@@ -70,17 +70,17 @@ class Nav extends Component {
                             </MDBNavbarNav>
                             <MDBNavbarNav right>
                                 <MDBNavItem>
-                                    <MDBNavLink className='black-text' link to='/about'>
+                                    <MDBNavLink style={{ color: 'rgb(235, 231, 225)' }} link to='/about'>
                                         About
                                     </MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>
-                                    <MDBNavLink className='black-text' link to='/virtual'>
+                                    <MDBNavLink style={{ color: 'rgb(235, 231, 225)' }} link to='/virtual'>
                                         Virtual
                                     </MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>
-                                    <MDBNavLink className='black-text' link to='/contact'>
+                                    <MDBNavLink style={{ color: 'rgb(235, 231, 225)' }} link to='/contact'>
                                         Contact
                                     </MDBNavLink>
                                 </MDBNavItem>

@@ -92,7 +92,7 @@ class HomeStill extends React.Component {
                         <img src={align4} alt='' className='d-block img-fluid p-3' />
                         </MDBCol>
                     </MDBRow> */}
-                    <div className='px-5 py-3 aligncreamdark'>
+                    <div style={{ background: 'rgb(235, 228, 212)' }} className='px-5 py-3'>
 
                         <MDBRow>
                             <MDBCol md="4">
@@ -138,7 +138,7 @@ class HomeStill extends React.Component {
                     </div>
                 </section> */}
                 <section className=''>
-                    <MDBCard className="px-5 pb-3 text-center aligngrey">
+                    <MDBCard className="px-5 pb-3 text-center alignpoopbrown">
                         <MDBCardBody>
                             {/* <h2 className="h1-responsive font-weight-bold my-5">
                                 Our amazing team
@@ -151,7 +151,7 @@ class HomeStill extends React.Component {
                             <MDBRow className='mt-4' >
 
                                 <MDBCol md='4' className="mb-lg-0 mb-5">
-                                    <Link to='/virtual' style={{ color: 'black' }}>
+                                    <Link to='/virtual' style={{ color: 'rgb(235, 231, 225)' }}>
                                         <MDBAvatar
                                             tag="img"
                                             src={keyboard}
@@ -163,7 +163,7 @@ class HomeStill extends React.Component {
                                 </MDBCol>
 
                                 <MDBCol md='4' className="mb-lg-0 mb-5">
-                                    <Link to='/about' style={{ color: 'black' }}>
+                                    <Link to='/about' style={{ color: 'rgb(235, 231, 225)' }}>
                                         <MDBAvatar
                                             tag="img"
                                             src={gldfern}
@@ -175,7 +175,7 @@ class HomeStill extends React.Component {
                                 </MDBCol>
 
                                 <MDBCol md='4' className="mb-lg-0 mb-5">
-                                    <a href='https://mytherapynyc.com/benefits-of-virtual-therapy/' style={{ color: 'black' }} target='_blank' rel="noopener noreferrer" >
+                                    <a href='https://mytherapynyc.com/benefits-of-virtual-therapy/' style={{ color: 'rgb(235, 231, 225)' }} target='_blank' rel="noopener noreferrer" >
                                         <MDBAvatar
                                             tag="img"
                                             src={vasetbl}

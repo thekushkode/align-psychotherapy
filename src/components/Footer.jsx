@@ -1,7 +1,6 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon } from "mdbreact";
 import logo from '../assets/logovertclear.png';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (

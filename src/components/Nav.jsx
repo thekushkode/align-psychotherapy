@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBCollapse, MDBContainer, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBIcon } from 'mdbreact';
-import logo from '../assets/alignhoriz.png';
+import logo from '../assets/alignhorizon.png';
 import './AlignColors.css';
 
 class Nav extends Component {

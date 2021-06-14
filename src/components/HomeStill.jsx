@@ -4,29 +4,21 @@ import {
     MDBMask,
     MDBRow,
     MDBCol,
-    MDBIcon,
     MDBBtn,
     MDBView,
     MDBContainer,
     MDBCard,
     MDBCardBody,
-    MDBStreak,
     MDBAvatar
 } from 'mdbreact';
 import './HomeStill.css';
 import './AlignColors.css';
 import Nav from './Nav';
 import Footer from './Footer';
-import couch from '../assets/aligncouch.jpg';
-import logo from '../assets/logo-blk.png';
 import align4 from '../assets/photoshoot/align4.jpg';
 import keyboard from '../assets/type.jpg';
-import rocks from '../assets/align-pics/rocks.jpg';
-import sittype from '../assets/align-pics/sittype.jpg';
-import cups from '../assets/cups.jpg';
-import gldfern from '../assets/gldfern.jpg';
+import gldfern from '../assets/tinychair.jpg';
 import vasetbl from '../assets/vasetbl.jpg';
-import btltbl from '../assets/btltbl.jpg';
 import ghandi from '../assets/ghandi.jpg';
 
 
@@ -46,52 +38,16 @@ class HomeStill extends React.Component {
                 <div id='apppage'>
                     <MDBView>
                         <MDBMask className='gradient'>
-                            {/* <img className='img-fluid' src={couch} alt='room with couch and 2 chairs in front of a window'/> */}
                         </MDBMask>{' '}
                         <MDBContainer
                             className='d-flex justify-content-center align-items-center px-md-3 px-sm-0'
                             style={{ height: '100vh', width: '100%', paddingTop: '1rem' }}
                         >
-                            {/* <MDBRow>
-                                <MDBCol md='8' className='mb-4 black-text text-center align-self-center'>
-                                    <h3 className='display-3 font-weight-bold trirong-med mb-0 pt-md-5'>
-                                        Align Collective
-                                    </h3>
-                                    <hr className='hr-dark my-4 w-75' />
-                                    <h4 className='subtext-header trirong-thin mt-2 mb-4'>
-                                        Psychotherapy for the mind, body, & soul.
-                                    </h4>
-                                    <MDBBtn outline rounded color='black'>
-                                        <MDBIcon fas icon='envelope' size='lg' className='mr-1' /> Contact Us Today
-                                    </MDBBtn>
-                                    <div className="d-flex justify-content-center">
-                                        <img src={logo} className='img-fluid' alt='align logo' />
-                                    </div>
-                                    <MDBBtn outline rounded color='black'>
-                                        <MDBIcon fas icon='envelope' size='lg' className='mr-1' />Get In Touch
-                                    </MDBBtn>
-                                </MDBCol>
-                                <MDBCol md='4'>
-                                    <div className="d-flex justify-content-center">
-                                        <img src={rocks} className='img-fluid' alt='balancing rocks' />
-                                    </div>
-                                </MDBCol>
-                            </MDBRow> */}
+                            
                         </MDBContainer>
                     </MDBView>
                 </div>
                 <section>
-                    {/* <MDBRow>
-                        <MDBCol md='8' className='align-self-center'>
-                        <p className='pl-3'>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu faucibus nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec tristique tortor. Aliquam tincidunt nibh fringilla arcu mattis aliquet. Aliquam quis sem vitae felis laoreet rutrum hendrerit at eros. Mauris orci lorem, ornare at fringilla eget, facilisis eget lectus. Integer nibh dui, dictum non consequat sit amet, scelerisque eu lectus. In dapibus orci eu turpis sagittis malesuada.
-                                </p>
-                            <MDBBtn color='white' className='btn-rounded black-text ml-3'>Learn More</MDBBtn>
-                            </MDBCol>
-                        <MDBCol md='4'>
-                        <img src={align4} alt='' className='d-block img-fluid p-3' />
-                        </MDBCol>
-                    </MDBRow> */}
                     <div style={{ background: 'rgb(235, 228, 212)' }} className='px-5 py-3'>
 
                         <MDBRow>
@@ -101,8 +57,6 @@ class HomeStill extends React.Component {
                                     src={align4}
                                     alt="Brittany Ellison head shot"
                                 />
-                                {/* <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
-                                    </MDBView> */}
                             </MDBCol>
                             <MDBCol md="8" className='align-self-center'>
                                 <h1 className='h1-responsive font-weight-bold black-text mirage'>
@@ -126,28 +80,9 @@ class HomeStill extends React.Component {
                         </MDBRow>
                     </div>
                 </section>
-                {/* <section >
-                    <div>
-                        <div className='streak streak-photo streak-long-1' style={{ backgroundImage: "url(" + keyboard + ")" }}>
-                            <div className='mask flex-center rgba-black-strong'>
-                                <MDBContainer>
-                                    <h2 className='h2-responsive text-center text-sm-center white-text trirong-med'>“Your vision will become clear only when you look into your heart. Who looks outside, dreams; who looks inside awakens.” <br /> -Carl Young</h2>
-                                </MDBContainer>
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
                 <section className=''>
                     <MDBCard className="px-5 pb-3 text-center alignpoopbrown">
                         <MDBCardBody>
-                            {/* <h2 className="h1-responsive font-weight-bold my-5">
-                                Our amazing team
-                            </h2>
-                            <p className="grey-text w-responsive mx-auto mb-5">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-                                error amet numquam iure provident voluptate esse quasi, veritatis
-                                totam voluptas nostrum quisquam eum porro a pariatur veniam.
-                            </p> */}
                             <MDBRow className='mt-4' >
 
                                 <MDBCol md='4' className="mb-lg-0 mb-5">
@@ -190,40 +125,8 @@ class HomeStill extends React.Component {
                     </MDBCard>
                 </section>
                 <section style={{ backgroundColor: 'white' }} className='text-center'>
-                    {/* <MDBContainer>
-                        <MDBRow>
-                            <MDBCol md='3'>
-                                <img src={mirrorflower} alt='flower in front of mirror' className='img-fluid rounded mb-2' style={{ marginTop: '100px' }} />
-                            </MDBCol>
-                            <MDBCol md='6' className='align-self-center'>
-                                <MDBStreak by="Mahatma Gandhi" wrapperClass='white'>
-                                    Happiness is when what you think, what you say and what you do are in harmony.
-                                </MDBStreak>
-                            </MDBCol>
-                            <MDBCol md='3'>
-                                <img src={btltbl} alt='glass bottle with flower in it' className='img-fluid rounded' style={{ marginTop: '-5px' }} />
-                            </MDBCol>
-                        </MDBRow>
-                    </MDBContainer> */}
-                    <img className='img-fluid w-75' src={ghandi} alt='Quote by Ghandi' />
+                    <img className='img-fluid w-75 py-4' src={ghandi} alt='Quote by Ghandi' />
                 </section>
-                {/* <section className='alignlightgrey'>
-                    <h2 className="h1-responsive black-text mirage font-weight-bold text-center mb-3 pt-5">
-                        Get Care From Anywhere!
-                        </h2>
-                    <hr className='hr-dark mb-5' style={{ margin: '0 100px' }} />
-                    <MDBRow>
-                        <MDBCol md='9'>
-                            <h4 className="text-center trirong-thin black-text w-responsive mx-auto mb-5">
-                                Telehealth has met the need for mental health support no matter what circumstances or challenges present to access care. Virtual therapy is a huge step forward in wellness technology and I am extremely excited to provide teletherapy to clients near and far in the states I hold a license. There are endless benefits to teletherapy--convenience being among the top.
-                                </h4>
-                            <a href='https://mytherapynyc.com/benefits-of-virtual-therapy/' target='_blank' rel="noopener noreferrer" ><p className="trirong-thin text-center w-responsive mx-auto mb-5">See Benefits of Virtual Therapy</p></a>
-                        </MDBCol>
-                        <MDBCol md='3'>
-                            <img src={sittype} alt='girl sitting and typing on laptop' className='img-fluid pb-3' width='90%' />
-                        </MDBCol>
-                    </MDBRow>
-                </section> */}
                 <footer style={{ marginTop: '-25px' }}>
                     <Footer />
                 </footer>

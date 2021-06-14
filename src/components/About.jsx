@@ -3,22 +3,16 @@ import { Link } from 'react-router-dom';
 import {
     MDBRow,
     MDBCol,
-    MDBContainer,
     MDBCard,
     MDBCardBody,
     MDBBtn,
-    MDBStreak
 } from 'mdbreact';
 import './AlignColors.css';
 import Nav from './Nav';
 import Footer from './Footer';
-import align4 from '../assets/photoshoot/align4.jpg';
 import headshot from '../assets/photoshoot/align11.jpg';
-import Financial from './Financial';
 import rocks from '../assets/align-pics/rocks.jpg';
 import cups from '../assets/align-pics/cups.jpg';
-import AllServicesModal from './AllServicesModal';
-import InsuranceModal from './InsuranceModal';
 import altlogo from '../assets/altlogo.jpg';
 import quote from '../assets/quote.jpg';
 
@@ -40,9 +34,6 @@ const About = () => {
                             About the Counselor
                         </h2>
                         <hr className='hr-dark mb-5' style={{ margin: '0 300px' }} />
-                        {/* <h5 className="text-center black-text trirong-med w-responsive mx-auto mb-5">
-                            I am a Licensed Professional Counselor in the state of Georgia. I received my masters in counseling psychology from the University of San Francisco. I offer a warm and collaborative therapeutic style focused on creating a safe and welcoming space where clients can feel seen and not judged, allowing for vulnerability and authentic sharing. I have an integrative approach, incorporating theoretical orientations including humanistic, psychodynamic and cognitive-behavioral modalities.
-                        </h5> */}
                         <MDBRow>
                             <MDBCol lg="4">
                                 <img
@@ -50,8 +41,7 @@ const About = () => {
                                     src={headshot}
                                     alt="Brittany Ellison head shot"
                                 />
-                                {/* <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
-                                    </MDBView> */}
+
                             </MDBCol>
                             <MDBCol lg="6" className='mt-3 px-5 align-self-center'>
                                 <p className='spacing trirong-med'>
@@ -68,8 +58,8 @@ const About = () => {
                     </MDBCardBody>
                 </MDBCard>
             </section>
-            <section>
-                <img src={altlogo} alt='Alternate logo for Align' className='img-fluid' />
+            <section className='text-center' >
+                <img src={altlogo} alt='Alternate logo for Align' className='img-fluid w-75 py-4' />
             </section>
             <section>
                 <MDBCard className="px-1 pb-5">
@@ -86,8 +76,7 @@ const About = () => {
                                     alt="Brittany Ellison head shot"
                                     style={{ marginTop: '100px' }}
                                 />
-                                {/* <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
-                                    </MDBView> */}
+
                             </MDBCol>
                             <MDBCol lg="6">
                                 <p className='px-5 spacing trirong-thin'>
@@ -96,10 +85,6 @@ const About = () => {
                                     I believe in therapy and am honored to join clients in this work. I specialize in life transitions, body image, perfectionism, relationships, self-empowerment, motivation, self-worth, anxiety/overwhelm/burnout, depression/loss/grief, emotional regulation, coping skills, identity development and boundaries.
 
                                 </p>
-                                {/* <div className="d-flex justify-content-center">
-                                    <InsuranceModal />
-                                    <AllServicesModal />
-                                </div> */}
                             </MDBCol>
                             <MDBCol lg="3">
                                 <img
@@ -108,8 +93,6 @@ const About = () => {
                                     alt="Brittany Ellison head shot"
                                     style={{ marginTop: '-70px' }}
                                 />
-                                {/* <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
-                                    </MDBView> */}
                             </MDBCol>
                         </MDBRow>
                     </MDBCardBody>
@@ -118,18 +101,6 @@ const About = () => {
             <section className='text-center' style={{ backgroundColor: 'rgb(235, 231, 225)' }}>
                 <img src={quote} alt='Alternate logo for Align' className='img-fluid w-75 py-4' />
             </section>
-            {/* <section className='alignbrown'>
-                <MDBContainer>
-                    <MDBStreak by="Carl Young" wrapperClass='alignbrown'>
-                        <span className='white-text trirong-thin'>Your vision will become clear only when you look into your heart. Who looks outside, dreams; who looks inside awakens.</span>
-                    </MDBStreak>
-                </MDBContainer>
-            </section> */}
-            {/* <section>
-                <MDBContainer>
-                    <Financial />
-                </MDBContainer>
-            </section> */}
             <footer style={{ marginTop: '-25px' }}>
                 <Footer />
             </footer>

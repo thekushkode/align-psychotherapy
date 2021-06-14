@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput, MDBContainer } from "mdbreact";
-import { Redirect } from 'react-router-dom';
+import { MDBRow, MDBCol, MDBBtn, MDBInput, MDBContainer } from "mdbreact";
 import './AlignColors.css';
 import Nav from "./Nav";
 import Footer from "./Footer";

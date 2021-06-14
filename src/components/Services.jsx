@@ -1,15 +1,9 @@
 import React, { useEffect } from "react";
-import { MDBRow, MDBCol, MDBIcon, MDBContainer, MDBView, MDBMask } from "mdbreact";
+import { MDBRow, MDBCol, MDBContainer, MDBView, MDBMask } from "mdbreact";
 import './AlignColors.css';
-import logo from '../assets/alignlogo.jpeg';
 import Footer from "./Footer";
 import Nav from "./Nav";
-import AllServicesModal from './AllServicesModal';
-import sittype from '../assets/type.jpg';
 import sittype1 from '../assets/virtualbackground.jpg';
-import pill from '../assets/pill2.jpg';
-import psycho from '../assets/psycho.png';
-import tumbleweed from '../assets/tumbleweed.jpg';
 import tel1 from '../assets/tel1.jpg';
 import tel2 from '../assets/tel2.jpg';
 import tel3 from '../assets/tel3.jpg';
@@ -30,7 +24,6 @@ const Telehealth = () => {
                 <MDBView >
                     <img src={sittype1} class="img-fluid" alt='' />
                     <MDBMask className="flex-center" overlay="white-strong" >
-                        {/* <p className="white-text">text</p> */}
                         <MDBContainer>
                             <h2 className="h1-responsive black-text mirage font-weight-bold text-center mb-3 pt-5">
                                 Virtual Therapy
@@ -56,40 +49,6 @@ const Telehealth = () => {
                     </MDBMask>
                 </MDBView>
             </section>
-            {/* <section className='aligngrey'>
-                <MDBRow className='p-4'>
-                    <MDBCol md='6' className='mb-4'>
-                        <img src={tel1} alt='' className='img-fluid' />
-                    </MDBCol>
-                    <MDBCol md='6' className=''>
-                        <img src={tel2} alt='' className='img-fluid' />
-                    </MDBCol>
-                </MDBRow>
-                <MDBRow className='px-4 pb-4'>
-                    <MDBCol md='6' className='mb-4'>
-                        <img src={tel3} alt='' className='img-fluid' />
-                    </MDBCol>
-                    <MDBCol md='6' className=''>
-                        <img src={tel4} alt='' className='img-fluid' />
-                    </MDBCol>
-                </MDBRow>
-            </section> */}
-            {/* <section className="mb-5">
-                <h2 className="h1-responsive black-text mirage font-weight-bold text-center my-3">
-                    Pricing
-                        </h2>
-                <hr className='hr-dark mb-5' style={{ margin: '0 200px' }} />
-                <MDBRow>
-                    <MDBCol md='3'>
-                        <img src={tumbleweed} alt='girl sitting and typing on laptop' className='img-fluid ml-5 pb-3' width='70%' />
-                    </MDBCol>
-                    <MDBCol md='6' className='align-self-center'>
-                        <p className="text-justify trirong-med black-text w-responsive mx-auto mb-5">
-                            Session cost for one hour (50 minute therapy hour) is $130. I also accept the following insurances: Cigna, BCBS, United, and Aetna. I believe the client/therapist relationship is an extremely important part of the therapy process therefore I offer a free 15 minute phone consultation to help you determine if I am the right fit. Please don't hesitate to reach out!
-                        </p>
-                    </MDBCol>
-                </MDBRow>
-            </section> */}
             <footer style={{ marginTop: '-25px' }}>
                 <Footer />
             </footer>

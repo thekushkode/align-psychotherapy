@@ -49,6 +49,7 @@ class ContactPage extends Component {
                     <h2 className="h1-responsive font-weight-bold mirage text-center my-5">
                         Contact us
                     </h2>
+                    <hr className='hr-dark mb-5' style={{ margin: '0 300px' }} />
                     <p className="text-center w-responsive trirong-thin mx-auto pb-5">
                         Thank you for your interest in Align Psychotherapy! <br />Please reach out with any questions or to schedule a consultation. <br />I look forward to helping you.
                     </p>

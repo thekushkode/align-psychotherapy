@@ -59,7 +59,7 @@ const About = () => {
                 </MDBCard>
             </section>
             <section className='text-center' >
-                <img src={altlogo} alt='Alternate logo for Align' className='img-fluid w-75 py-4' />
+                <img src={altlogo} alt='Alternate logo for Align' className='img-fluid w-50 py-4' />
             </section>
             <section>
                 <MDBCard className="px-1 pb-5">
@@ -99,7 +99,7 @@ const About = () => {
                 </MDBCard>
             </section>
             <section className='text-center' style={{ backgroundColor: 'rgb(235, 231, 225)' }}>
-                <img src={quote} alt='Alternate logo for Align' className='img-fluid w-75 py-4' />
+                <img src={quote} alt='Alternate logo for Align' className='img-fluid w-50 py-4' />
             </section>
             <footer style={{ marginTop: '-25px' }}>
                 <Footer />

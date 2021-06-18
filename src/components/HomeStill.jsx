@@ -20,6 +20,7 @@ import keyboard from '../assets/type.jpg';
 import gldfern from '../assets/tinychair.jpg';
 import vasetbl from '../assets/vasetbl.jpg';
 import ghandi from '../assets/ghandi.jpg';
+import BookingScript from './BookingScript';
 
 
 class HomeStill extends React.Component {
@@ -71,10 +72,11 @@ class HomeStill extends React.Component {
                                 </p>
                                 <div className="d-flex justify-content-center">
                                     <Link to='/contact'>
-                                        <MDBBtn outline rounded color='grey lighten-5' className='' size="lg">
+                                        <MDBBtn outline color='grey lighten-5' className='' size="lg">
                                             Get In Touch
                                         </MDBBtn>
                                     </Link>
+                                    <BookingScript />
                                 </div>
                             </MDBCol>
                         </MDBRow>

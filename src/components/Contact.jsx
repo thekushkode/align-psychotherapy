@@ -4,6 +4,7 @@ import './AlignColors.css';
 import Nav from "./Nav";
 import Footer from "./Footer";
 import pic from '../assets/align-pics/contact1.jpg';
+import BookingScript from "./BookingScript";
 
 class ContactPage extends Component {
 
@@ -51,7 +52,7 @@ class ContactPage extends Component {
                     </h2>
                     <hr className='hr-dark mb-5' style={{ margin: '0 300px' }} />
                     <p className="text-center w-responsive trirong-thin mx-auto pb-5">
-                        Thank you for your interest in Align Psychotherapy! <br />Please reach out with any questions or to schedule a consultation. <br />I look forward to helping you.
+                        Thank you for your interest in Align Psychotherapy! <br />Please reach out with any questions or to <a href="https://alignpsychotherapy.clientsecure.me"  data-spwidget-scope-id="f3c67842-b172-4f33-afae-04e02f438fe1" data-spwidget-scope-uri="alignpsychotherapy" data-spwidget-application-id="7c72cb9f9a9b913654bb89d6c7b4e71a77911b30192051da35384b4d0c6d505b" data-spwidget-scope-global data-spwidget-autobind>schedule a consultation.</a><script src="https://widget-cdn.simplepractice.com/assets/integration-1.0.js"></script> <br />I look forward to helping you.
                     </p>
                     <MDBRow>
                         <MDBCol md='3' >
@@ -98,9 +99,10 @@ class ContactPage extends Component {
                                     </MDBCol>
                                 </MDBRow>
                                 <div className="text-center text-md-left">
-                                    <MDBBtn outline rounded color='grey lighten-5' className='' size="lg" type='submit' >
+                                    <MDBBtn outline color='grey lighten-5' className='' size="md" type='submit' >
                                         Send
                                 </MDBBtn>
+                                
                                 </div>
                                 {status === 'SUCCESS' && <p>Your Email Has Been Sent!</p>}
                                 {status === 'ERROR' && <p>Oops! There was an error. Please try again.</p>}

@@ -1,4 +1,6 @@
+import { MDBBtn } from 'mdbreact';
 import React, { Component } from 'react';
+import './BookingScript.css'
 
 class BookingScript extends Component {
 
@@ -8,45 +10,13 @@ class BookingScript extends Component {
         show: ''
     }
 
-    getScript = () => {
-        const targetDiv = document.getElementById("bookingScript");
-        const script = document.createElement("script");
-        script.id = "bookingWidget";
-        script.src =
-            "https://widget-cdn.simplepractice.com/assets/integration-1.0.js";
-        script.type = 'text/javascript'
-        targetDiv.appendChild(script);
-    };
-
-    // isLoading = () => {
-    //     // this.setState({
-    //     //     loading: [...this.state.loading, <Loading />]
-    //     // })
-    //     const timer = setTimeout(() => this.setState({ show: true }), 3000)
-    //     return () => clearTimeout(timer);
-    // }
-
-
-    componentDidMount() {
-        // this.isLoading();
-        this.getScript();
-        // this.setState({
-        //     loading: false
-        // })
-        // setTimeout(() => this.setState({ show: true }), 3000)
-    };
-
-    // componentDidUpdate() {
-    //     this.getScript();
-
-    // }
-
     render() {
         return (
             <div>
-                {/* { this.show && <Loading /> } */}
-                <div id="bookingScript"></div>
-                {/* { this.state.show ? <Loading /> : <div id="donationScript"></div>} */}
+                <div>
+                    <MDBBtn outline color='grey lighten-5' size='lg' href="https://alignpsychotherapy.clientsecure.me"  data-spwidget-scope-id="f3c67842-b172-4f33-afae-04e02f438fe1" data-spwidget-scope-uri="alignpsychotherapy" data-spwidget-application-id="7c72cb9f9a9b913654bb89d6c7b4e71a77911b30192051da35384b4d0c6d505b" data-spwidget-scope-global data-spwidget-autobind>Request Appointment</MDBBtn>
+                    <script src="https://widget-cdn.simplepractice.com/assets/integration-1.0.js"></script>
+                </div>
             </div>
         )
     }

@@ -4,6 +4,7 @@ import ContactPage from './components/Contact';
 import About from './components/About';
 import HomeStill from './components/HomeStill';
 import Telehealth from './components/Services';
+import Resources from './components/Resources';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Route exact path='/virtual' component={Telehealth} />
       <Route exact path='/contact' component={ContactPage} />
       <Route exact path='/about' component={About} />
+      <Route exact path='/resources' component={Resources} />
     </Switch>
   );
 }

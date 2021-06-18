@@ -51,16 +51,16 @@ const About = () => {
                                 <p className='spacing trirong-med'>
                                     I believe each client is unique, and treatment should reflect their uniqueness. We will work together to tailor treatment to your specific needs. I deeply respect my clients and their innate wisdom and would count it an honor to walk with you through the journey of therapy. Thank you for reaching out for support.
                                 </p>
-                                <Link to='/contact'>
-                                    <MDBBtn outline rounded color='grey lighten-5' size="lg">Schedule Consultation</MDBBtn>
-                                </Link>
+                                <div className="d-flex">
+                                    <Link to='/contact'>
+                                        <MDBBtn outline color='grey lighten-5' size="lg">Get In Touch</MDBBtn>
+                                    </Link>
+                                    <BookingScript />
+                                </div>
                             </MDBCol>
                         </MDBRow>
                     </MDBCardBody>
                 </MDBCard>
-            </section>
-            <section>
-                <BookingScript />
             </section>
             <section className='text-center' >
                 <img src={altlogo} alt='Alternate logo for Align' className='img-fluid w-50 py-4' />
@@ -85,7 +85,7 @@ const About = () => {
                             <MDBCol lg="6">
                                 <p className='px-5 spacing trirong-thin'>
                                     I believe healing and wholeness takes a holistic and integrative approach--aligning mind, body & soul. Doing the work of therapy can be challenging as we lean into the messy parts of ourselves but understanding our blocks, trauma, and suffering is a great act of self love. Beginning the process of therapy is courageous, it is a commitment to yourself and your growth & healing. It will not always be easy but you will not be alone. We will work together to navigate this journey.
-                                    <br/><br/>
+                                    <br /><br />
                                     I believe in therapy and am honored to join clients in this work. I specialize in life transitions, body image, perfectionism, relationships, self-empowerment, motivation, self-worth, anxiety/overwhelm/burnout, depression/loss/grief, emotional regulation, coping skills, identity development and boundaries.
 
                                 </p>

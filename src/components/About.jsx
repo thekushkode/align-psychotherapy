@@ -15,6 +15,7 @@ import rocks from '../assets/align-pics/rocks.jpg';
 import cups from '../assets/align-pics/cups.jpg';
 import altlogo from '../assets/altlogo.jpg';
 import quote from '../assets/quote.jpg';
+import BookingScript from './BookingScript';
 
 const About = () => {
 
@@ -57,6 +58,9 @@ const About = () => {
                         </MDBRow>
                     </MDBCardBody>
                 </MDBCard>
+            </section>
+            <section>
+                <BookingScript />
             </section>
             <section className='text-center' >
                 <img src={altlogo} alt='Alternate logo for Align' className='img-fluid w-50 py-4' />

@@ -27,7 +27,7 @@ class Nav extends Component {
         const overlay = (
             <div
                 id='sidenav-overlay'
-                style={{ backgroundColor: 'white' }}
+                style={{ backgroundColor: 'rgb(161, 144, 129)' }}
                 onClick={this.toggleCollapse('navbarCollapse')}
             />
         );
@@ -77,6 +77,11 @@ class Nav extends Component {
                                 <MDBNavItem>
                                     <MDBNavLink style={{ color: 'rgb(235, 231, 225)' }} link to='/virtual'>
                                         Virtual
+                                    </MDBNavLink>
+                                </MDBNavItem>
+                                <MDBNavItem>
+                                    <MDBNavLink style={{ color: 'rgb(235, 231, 225)' }} link to='/resources'>
+                                        Resources
                                     </MDBNavLink>
                                 </MDBNavItem>
                                 <MDBNavItem>

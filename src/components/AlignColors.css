@@ -129,3 +129,18 @@
         font-size: 8px !important;
     }
 }
+
+@media (max-width: 767.98px) {
+    .peekaboo1 {
+        visibility: hidden !important;
+    }
+}
+@media (max-width: 767.98px) {
+    .peekaboo2 {
+        visibility: visible !important;
+    }
+}
+
+/* .hrmargin {
+    margin: 0 200px !important;
+} */

@@ -46,7 +46,7 @@ const About = () => {
                             </MDBCol>
                             <MDBCol lg="6" className='mt-3 px-5 align-self-center'>
                                 <p className='spacing trirong-med'>
-                                    I am a Licensed Professional Counselor in the state of Georgia. I received my masters in counseling psychology from the University of San Francisco. I offer a warm and collaborative therapeutic style focused on creating a safe and welcoming space where clients can feel seen and not judged, allowing for vulnerability and authentic sharing. I have an integrative approach, incorporating theoretical orientations including humanistic, psychodynamic and cognitive-behavioral modalities.
+                                    I am a Licensed Professional Counselor in the states of Georgia & Florida. I received my masters in counseling psychology from the University of San Francisco. I offer a warm and collaborative therapeutic style focused on creating a safe and welcoming space where clients can feel seen and not judged, allowing for vulnerability and authentic sharing. I have an integrative approach, incorporating theoretical orientations including humanistic, psychodynamic and cognitive-behavioral modalities.
                                 </p>
                                 <p className='spacing trirong-med'>
                                     I believe each client is unique, and treatment should reflect their uniqueness. We will work together to tailor treatment to your specific needs. I deeply respect my clients and their innate wisdom and would count it an honor to walk with you through the journey of therapy. Thank you for reaching out for support.
@@ -102,9 +102,9 @@ const About = () => {
                     </MDBCardBody>
                 </MDBCard>
             </section>
-            <section className='text-center' style={{ backgroundColor: 'rgb(235, 231, 225)' }}>
+            {/* <section className='text-center' style={{ backgroundColor: 'rgb(235, 231, 225)' }}>
                 <img src={quote} alt='Alternate logo for Align' className='img-fluid w-50 py-4' />
-            </section>
+            </section> */}
             <footer style={{ marginTop: '-25px' }}>
                 <Footer />
             </footer>

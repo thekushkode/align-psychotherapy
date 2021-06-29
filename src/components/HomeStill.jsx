@@ -126,9 +126,9 @@ class HomeStill extends React.Component {
                         </MDBCardBody>
                     </MDBCard>
                 </section>
-                <section style={{ backgroundColor: 'white' }} className='text-center'>
+                {/* <section style={{ backgroundColor: 'white' }} className='text-center'>
                     <img className='img-fluid w-50 py-4' src={ghandi} alt='Quote by Ghandi' />
-                </section>
+                </section> */}
                 <footer style={{ marginTop: '-25px' }}>
                     <Footer />
                 </footer>

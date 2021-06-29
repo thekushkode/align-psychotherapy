@@ -13,6 +13,7 @@ const Footer = () => {
                             Brittany Ellison, LPC
                         </p>
                         <p style={{ marginTop: '-17px' }}>Georgia License #: <b>011125</b></p>
+                        <p style={{ marginTop: '-17px' }}>Florida Telehealth #: <b>TPMC1038</b></p>
                         {/* <p className='p-0 m-0'>1985 Riviera Drive, Suite 103-1063</p>
                         <p className='p-0 m-0'>Mount Pleasant, SC 29464</p>
                         <p className='p-0 m-0'><a style={{ color: 'black' }} href='tel:4042599479'>404.259.9479</a></p>

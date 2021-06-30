@@ -95,7 +95,7 @@ const About = () => {
                                     className="img-fluid rounded"
                                     src={rocks}
                                     alt="Brittany Ellison head shot"
-                                    style={{ marginTop: '-70px' }}
+                                    style={{ marginTop: '-15px' }}
                                 />
                             </MDBCol>
                         </MDBRow>

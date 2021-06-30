@@ -53,7 +53,7 @@ const About = () => {
                                 </p>
                                 <div className="d-flex">
                                     <Link to='/contact'>
-                                        <MDBBtn outline color='grey lighten-5' size="lg">Get In Touch</MDBBtn>
+                                        <MDBBtn outline color='grey lighten-5' size="md">Get In Touch</MDBBtn>
                                     </Link>
                                     <BookingScript />
                                 </div>

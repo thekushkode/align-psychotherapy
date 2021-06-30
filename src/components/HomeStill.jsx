@@ -44,7 +44,7 @@ class HomeStill extends React.Component {
                             className='d-flex justify-content-center align-items-center px-md-3 px-sm-0'
                             style={{ height: '100vh', width: '100%', paddingTop: '1rem' }}
                         >
-                            
+
                         </MDBContainer>
                     </MDBView>
                 </div>
@@ -72,7 +72,7 @@ class HomeStill extends React.Component {
                                 </p>
                                 <div className="d-flex justify-content-center">
                                     <Link to='/contact'>
-                                        <MDBBtn outline color='grey lighten-5' className='' size="lg">
+                                        <MDBBtn outline color='grey lighten-5' className='' size="md" >
                                             Get In Touch
                                         </MDBBtn>
                                     </Link>
@@ -88,37 +88,56 @@ class HomeStill extends React.Component {
                             <MDBRow className='mt-4' >
 
                                 <MDBCol md='4' className="mb-lg-0 mb-5">
+                                    <MDBView hover>
+
+                                        <Link to='/virtual' style={{ color: 'rgb(235, 231, 225)' }}>
+                                            <MDBAvatar
+                                                tag="img"
+                                                src={keyboard}
+                                                className="rounded z-depth-1 img-fluid"
+                                                alt="flower in bottle on table"
+                                            />
+                                            <MDBMask className='flex-center' overlay='white-light'>
+                                            </MDBMask>
+                                        </Link>
+                                    </MDBView>
                                     <Link to='/virtual' style={{ color: 'rgb(235, 231, 225)' }}>
-                                        <MDBAvatar
-                                            tag="img"
-                                            src={keyboard}
-                                            className="rounded z-depth-1 img-fluid"
-                                            alt="flower in bottle on table"
-                                        />
                                         <h3 className="font-weight-bold mt-4 mb-3 trirong-med">Virtual Therapy</h3>
                                     </Link>
                                 </MDBCol>
 
                                 <MDBCol md='4' className="mb-lg-0 mb-5">
+                                    <MDBView hover>
+                                        <Link to='/about' style={{ color: 'rgb(235, 231, 225)' }}>
+                                            <MDBAvatar
+                                                tag="img"
+                                                src={gldfern}
+                                                className="rounded z-depth-1 img-fluid"
+                                                alt="wheat plant in vase"
+                                            />
+                                            <MDBMask className='flex-center' overlay='white-light'>
+                                            </MDBMask>
+                                        </Link>
+                                    </MDBView>
                                     <Link to='/about' style={{ color: 'rgb(235, 231, 225)' }}>
-                                        <MDBAvatar
-                                            tag="img"
-                                            src={gldfern}
-                                            className="rounded z-depth-1 img-fluid"
-                                            alt="wheat plant in vase"
-                                        />
                                         <h3 className="font-weight-bold mt-4 mb-3 trirong-med">Counseling Approach</h3>
                                     </Link>
                                 </MDBCol>
 
                                 <MDBCol md='4' className="mb-lg-0 mb-5">
+                                    <MDBView hover>
+                                        <a href='https://mytherapynyc.com/benefits-of-virtual-therapy/' style={{ color: 'rgb(235, 231, 225)' }} target='_blank' rel="noopener noreferrer" >
+                                            <MDBAvatar
+                                                tag="img"
+                                                src={vasetbl}
+                                                className="rounded z-depth-1 img-fluid"
+                                                alt="vase on table"
+                                            />
+                                            <MDBMask className='flex-center' overlay='white-light'>
+                                            </MDBMask>
+                                        </a>
+                                    </MDBView>
                                     <a href='https://mytherapynyc.com/benefits-of-virtual-therapy/' style={{ color: 'rgb(235, 231, 225)' }} target='_blank' rel="noopener noreferrer" >
-                                        <MDBAvatar
-                                            tag="img"
-                                            src={vasetbl}
-                                            className="rounded z-depth-1 img-fluid"
-                                            alt="vase on table"
-                                        />
                                         <h3 className="font-weight-bold mt-4 mb-3 trirong-med">Additional Resources</h3>
                                     </a>
                                 </MDBCol>

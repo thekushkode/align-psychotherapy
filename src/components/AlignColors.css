@@ -21,6 +21,20 @@
     font-weight: 400 !important;
 }
 
+.trirong-thick {
+    font-family: 'Trirong', serif !important;
+    font-weight: 600 !important;
+}
+
+.mirage {
+    font-family: made-mirage-thin, serif;
+}
+
+.mirage-thick {
+    font-family: made-mirage-thin, serif;
+    font-weight: 500;
+}
+
 .hell {
     font-family: Helvetica, sans-serif !important;
 }
@@ -110,15 +124,6 @@
     color: rgb(212, 167, 138) !important;
 }
 
-.mirage {
-    font-family: made-mirage-thin, serif;
-}
-
-.mirage-thick {
-    font-family: made-mirage-thin, serif;
-    font-weight: 500;
-}
-
 .spacing {
     line-height: 30px;
 }
@@ -126,7 +131,7 @@
 
 @media (max-width: 767.98px) {
     .phoneText {
-        font-size: 12px !important;
+        font-size: 13px !important;
     }
 }
 
